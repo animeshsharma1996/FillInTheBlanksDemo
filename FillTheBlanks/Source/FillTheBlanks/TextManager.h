@@ -17,15 +17,15 @@ public:
 	// Sets default values for this actor's properties
 	ATextManager();
 
-UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Demo")
-	class UTextManagerWidget* textManagerWidget;
+	virtual void Tick(float DeltaTime) override;
+
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Demo")
+	class UWidgetComponent* textManagerWidgetComponent;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
+UPROPERTY()
+	class UTextManagerWidget* textManagerWidget;
 };

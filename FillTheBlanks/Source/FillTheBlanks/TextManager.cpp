@@ -2,24 +2,31 @@
 
 
 #include "TextManager.h"
+#include "Engine/Engine.h"
 #include "Components/TextBlock.h"
+#include "Components/WidgetComponent.h"
 
 // Sets default values
 ATextManager::ATextManager()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned
 void ATextManager::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	if (textManagerWidget != NULL)
+
+	textManagerWidgetComponent = FindComponentByClass<UWidgetComponent>();
+
+	if (textManagerWidgetComponent != nullptr)
 	{
-		textManagerWidget->Initialise();
+		textManagerWidget = Cast<UTextManagerWidget>(textManagerWidgetComponent->GetWidget());
+		if (textManagerWidget != nullptr)
+		{
+			textManagerWidget->Initialise();
+		}
 	}
 }
 
@@ -28,9 +35,9 @@ void ATextManager::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (textManagerWidget != NULL)
+	if (textManagerWidget != nullptr)
 	{
-		textManagerWidget->PublicTick(DeltaTime);
+		//textManagerWidget->PublicTick(DeltaTime);
 	}
 }
 

@@ -15,8 +15,10 @@ class FILLTHEBLANKS_API UTextManagerWidget : public UUserWidget
 	GENERATED_BODY()
 	
 public :
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable)
 		void Initialise();
+	UFUNCTION(BlueprintCallable)
+		void GenerateBlanksInParagraph();
 	UFUNCTION()
 		void PublicTick(float DeltaTime);
 
@@ -25,4 +27,11 @@ public :
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DemoData")
 		int32 numOfBlanks;
 
+private :
+	UPROPERTY()
+		TArray<FString> paragraphTextArray;
+	UPROPERTY()
+		TArray<FString> blanksTextArray;
+	UPROPERTY()
+		TArray<int32> blanksIndexArray;
 };
