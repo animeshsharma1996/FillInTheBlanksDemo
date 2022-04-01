@@ -2293,3 +2293,1508 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.01-15.37.25:417][810]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.04.01-15.37.25:441][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
 [2022.04.01-15.37.25:511][811]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.04.01-15.38.08:057][291]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-15.38.08:064][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-15.38.08:064][291]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 17:38:08)
+[2022.04.01-15.38.08:064][291]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.38.08:077][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012627s)
+[2022.04.01-15.38.08:078][291]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-15.38.08:079][291]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2022.04.01-15.38.08:079][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.014330s)
+[2022.04.01-15.38.08:112][291]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2022.04.01-15.38.08:115][291]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-15.38.08:116][291]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-15.38.08:116][291]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-15.38.08:116][291]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-15.38.08:127][291]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-15.38.08:127][291]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-15.38.08:192][291]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-15.38.08:192][291]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-15.38.08:192][291]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-15.38.08:192][291]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-15.38.08:192][291]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-15.38.08:192][291]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-15.38.08:192][291]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-15.38.08:229][291]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-15.38.08:229][291]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-15.38.08:229][291]LogInit: FAudioDevice initialized.
+[2022.04.01-15.38.08:229][291]LogAudio: Display: Audio Device (ID: 18) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-15.38.08:245][291]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-15.38.08:247][291]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-16.38.08
+[2022.04.01-15.38.08:247][291]LogWorld: Bringing up level for play took: 0.001722
+[2022.04.01-15.38.08:247][291]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.04.01-15.38.08:252][291]PIE: Server logged in
+[2022.04.01-15.38.08:253][291]PIE: Play in editor total start time 0.19 seconds.
+[2022.04.01-15.38.10:255][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.38.10:255][406]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.38.10:255][406]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-15.38.10:256][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.38.10:268][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-15.38.10:275][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.38.10:305][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.38.10:306][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.38.10:307][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.38.10:330][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.04.01-15.38.10:359][407]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.04.01-15.38.20:988][ 22]Cmd: DUPLICATE
+[2022.04.01-15.38.20:988][ 22]Cmd: ACTOR DUPLICATE
+[2022.04.01-15.38.21:234][ 25]LogD3D12RHI: Creating RTPSO with 136 shaders (0 cached, 1 new) took 196.87 ms. Compile time 148.97 ms, link time 41.24 ms.
+[2022.04.01-15.39.03:095][476]MapCheck: New page: Map Check
+[2022.04.01-15.39.03:162][476]Cmd: MAP REBUILD ALLVISIBLE
+[2022.04.01-15.39.03:162][476]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.04.01-15.39.03:376][476]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=false
+[2022.04.01-15.39.03:410][476]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.04.01-15.39.03:410][476]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.04.01-15.39.03:410][476]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.04.01-15.39.03:448][476]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.04.01-15.39.03:471][476]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.01-15.39.03:480][476]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.01-15.39.03:482][476]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.04.01-15.39.03:482][476]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.04.01-15.39.03:482][476]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.01-15.39.03:487][476]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.01-15.39.03:491][476]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.04.01-15.39.04:947][476]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.04.01-15.39.04:947][476]TextureStreamingBuild: Display: Compiling optional shaders took 1.493 seconds.
+[2022.04.01-15.39.05:069][476]LogLevel: Display: Export Material TexCoord Scales took 0.121 seconds.
+[2022.04.01-15.39.05:076][476]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2022.04.01-15.39.05:106][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.04.01-15.39.05:165][476]LightingResults: New page: Lighting Build - 1 Apr 2022, 17:39:05
+[2022.04.01-15.39.05:322][476]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.04.01-15.39.05:805][476]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.04.01-15.39.05:814][476]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.04.01-15.39.06:853][476]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.04.01-15.39.06:853][476]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28616
+[2022.04.01-15.39.09:695][476]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.04.01-15.39.09:695][476]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.04.01-15.39.09:695][476]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.04.01-15.39.09:695][476]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.04.01-15.39.09:695][476]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.04.01-15.39.09:997][476]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.04.01-15.39.09:998][476]MapCheck: New page: FillInTheBlanksDemo - 1 Apr 2022, 17:39:09
+[2022.04.01-15.39.09:998][476]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2022.04.01-15.39.10:000][476]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 2.206ms to complete.
+[2022.04.01-15.39.10:003][476]LogEditorBuildUtils: Build time 0:06
+[2022.04.01-15.39.10:279][477]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2022.04.01-15.39.10:284][477]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2022.04.01-15.39.10:362][477]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.04.01-15.39.10:363][477]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.04.01-15.39.10:363][477]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.04.01-15.39.10:363][477]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.04.01-15.39.11:069][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.04.01-15.39.45:695][774]Job is a success!
+[2022.04.01-15.39.46:116][775]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.021s
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:      Bricks at depth
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:          1: 5.6% covering 6.2% of volume
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:          2: 93.0% covering 1.6% of volume
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:      Bricks in each level
+[2022.04.01-15.39.46:117][775]LogVolumetricLightmapImport:          FillInTheBlanksDemo 			 71 bricks 	 100.0% (Persistent Level)
+[2022.04.01-15.39.49:103][775]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2022.04.01-15.39.49:103][775]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2022.04.01-15.39.49:103][775]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2022.04.01-15.39.49:103][775]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2022.04.01-15.39.49:104][775]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2022.04.01-15.39.49:104][775]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2022.04.01-15.39.49:105][775]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2022.04.01-15.39.49:105][775]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2022.04.01-15.39.49:111][775]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2022.04.01-15.39.49:111][775]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2022.04.01-15.39.49:111][775]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2022.04.01-15.39.49:116][775]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2022.04.01-15.39.49:116][775]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2022.04.01-15.39.49:117][775]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2022.04.01-15.39.49:117][775]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2022.04.01-15.39.49:304][775]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2022.04.01-15.39.49:706][775]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
+[2022.04.01-15.39.49:874][775]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2022.04.01-15.39.49:874][775]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2022.04.01-15.39.49:874][775]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2022.04.01-15.39.49:874][775]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2022.04.01-15.39.49:874][775]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2022.04.01-15.39.49:874][775]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2022.04.01-15.39.49:874][775]Lightmass on LAPTOP-ACERPRED: 37.4 sec total, 207 ms importing, 18 ms setup, 5.29 sec photons, 31.8 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 5:50 min total, 2:25 min processing.
+[2022.04.01-15.39.49:876][775]LogStaticLightingSystem: FillInTheBlanksDemo_BuiltData storing lightmap data for 8 meshes in 8 LightmapResourceClusters (1.0 Meshes per cluster).
+[2022.04.01-15.39.49:959][775]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2022.04.01-15.39.50:100][775]LogStaticLightingSystem: Illumination: 44.7 sec (2.64 sec encoding lightmaps, 702 ms encoding shadowmaps)
+[2022.04.01-15.39.50:100][775]LogStaticLightingSystem: Lightmap texture memory:  43.0 MB (43.0 MB streaming, 0.0 MB non-streaming), 10 textures
+[2022.04.01-15.39.50:100][775]LogStaticLightingSystem: Shadowmap texture memory: 9.6 MB (9.6 MB streaming, 0.0 MB non-streaming), 8 textures
+[2022.04.01-15.39.54:764][775]DumpUnbuiltLightIteractions
+[2022.04.01-15.39.54:764][775]Lights with unbuilt interactions: 0
+[2022.04.01-15.39.54:764][775]
+[2022.04.01-15.39.54:764][775]Primitives with unbuilt interactions: 0
+[2022.04.01-15.39.54:980][775]LogD3D12RHI: Creating RTPSO with 138 shaders (0 cached, 2 new) took 120.29 ms. Compile time 112.83 ms, link time 6.52 ms.
+[2022.04.01-15.39.55:164][775]LogTexture: Display: Building textures: NewReflectionComponentTextureD5B55AC7496CD3FBF6154CA3715BB71F (BGRA8, 128X128)
+[2022.04.01-15.39.55:298][776]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.04.01-15.39.55:298][776]MapCheck: New page: FillInTheBlanksDemo - 1 Apr 2022, 17:39:55
+[2022.04.01-15.39.55:299][776]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.492ms to complete.
+[2022.04.01-15.43.25:024][906]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2022.04.01-15.43.25:072][906]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_Auto686645EA04B814499576EA4A11671F439.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/Autosaves/Game/Maps/FillInTheBlanksDemo_Auto6.umap'
+[2022.04.01-15.43.25:073][906]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.105
+[2022.04.01-15.43.25:073][906]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.105
+[2022.04.01-15.53.33:751][671]LogUObjectHash: Compacting FUObjectHashTables data took  50.48ms
+[2022.04.01-15.53.33:826][671]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 4.729
+[2022.04.01-15.59.55:758][832]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.01-16.00.34:262][933]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.01-16.02.11:803][220]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.01-16.03.34:846][457]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2022.04.01-16.03.34:862][457]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.241
+[2022.04.01-16.06.41:422][449]LogD3D12RHI: Creating RTPSO with 134 shaders (2 cached, 0 new) took 129.00 ms. Compile time 0.75 ms, link time 114.37 ms.
+[2022.04.01-16.06.45:552][594]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-16.06.54:652][878]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-16.06.54:809][878]LogUObjectHash: Compacting FUObjectHashTables data took  14.33ms
+[2022.04.01-16.06.57:640][988]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-16.06.57:748][988]LogUObjectHash: Compacting FUObjectHashTables data took   8.95ms
+[2022.04.01-16.06.57:989][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.04.01-16.06.58:187][988]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo9033D3964CFD43155910B799CA1F4B03.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-16.06.58:210][988]LogFileHelpers: Saving map 'FillInTheBlanksDemo' took 0.279
+[2022.04.01-16.06.58:269][988]AssetCheck: New page: Asset Save: FillInTheBlanksDemo
+[2022.04.01-16.06.58:270][988]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-16.12.01:243][493]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.01-16.15.29:022][562]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.01-16.16.57:969][562]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2022.04.01-16.16.57:971][562]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.115
+[2022.04.01-16.24.43:860][942]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.01-16.27.56:805][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.04.01-16.27.56:806][286]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.053
+[2022.04.01-16.29.25:792][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.04.01-16.29.25:826][490]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo1C2D8A434A48AB09E09665BB35CF0418.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-16.29.26:598][490]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData5D4B77004B6D3C1D98D93C917525090B.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-16.29.26:655][490]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-16.29.26:655][490]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-16.29.26:655][490]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-16.34.16:347][995]Running E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" -game -rocket -progress
+[2022.04.01-16.34.16:854][995]Discovering modules, targets and source code for project...
+[2022.04.01-16.34.19:371][995]Binding IntelliSense data...
+[2022.04.01-16.34.27:054][995]Binding IntelliSense data... 100%
+[2022.04.01-16.34.27:054][995]Writing project files...
+[2022.04.01-16.34.32:894][995]Writing project files... 100%
+[2022.04.01-16.34.33:034][995]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-16.34.33:111][995]Candidate modules for hot reload:
+[2022.04.01-16.34.33:111][995]  FillTheBlanks
+[2022.04.01-16.34.33:111][995]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,3007 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-16.34.56:103][995]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 18:34:56
+[2022.04.01-16.34.56:104][995]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-16.34.56:104][995]CompilerResultsLog: Creating makefile for FillTheBlanksEditor (no existing makefile)
+[2022.04.01-16.34.56:104][995]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-16.34.56:104][995]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-16.34.56:104][995]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 12.434363 seconds
+[2022.04.01-16.34.56:104][995]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-16.34.56:104][995]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-16.34.56:104][995]CompilerResultsLog: Building 15 actions with 12 processes...
+[2022.04.01-16.34.56:104][995]CompilerResultsLog:   [1/15] FillTheBlanks.cpp
+[2022.04.01-16.34.56:104][995]CompilerResultsLog:   [2/15] TextManager.cpp
+[2022.04.01-16.34.56:104][995]CompilerResultsLog:   [3/15] FillTheBlanksProjectile.gen.cpp
+[2022.04.01-16.34.56:104][995]CompilerResultsLog:   [4/15] FillTheBlanksProjectile.cpp
+[2022.04.01-16.34.56:104][995]CompilerResultsLog:   [5/15] FillTheBlanksGameMode.gen.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [6/15] FillTheBlanksGameMode.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [7/15] FillTheBlanksHUD.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [8/15] TextManager.gen.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [9/15] FillTheBlanksCharacter.gen.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [10/15] FillTheBlanksHUD.gen.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [11/15] FillTheBlanks.init.gen.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [12/15] FillTheBlanksCharacter.cpp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [13/15] UE4Editor-FillTheBlanks-3007.lib
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3007.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3007.exp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [14/15] UE4Editor-FillTheBlanks-3007.dll
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3007.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3007.suppressed.exp
+[2022.04.01-16.34.56:105][995]CompilerResultsLog:   [15/15] FillTheBlanksEditor.target
+[2022.04.01-16.34.56:105][995]CompilerResultsLog: Total time in Parallel executor: 7.84 seconds
+[2022.04.01-16.34.56:105][995]CompilerResultsLog: Total execution time: 22.78 seconds
+[2022.04.01-16.34.56:106][995]LogMainFrame: MainFrame: Module compiling took 23.071 seconds
+[2022.04.01-16.34.56:195][995]LogClass: Could not find existing class TextManager in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-16.34.56:226][995]LogLinker: Warning: Failed to load '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter': Can't find file.
+[2022.04.01-16.34.56:226][995]LogLinker: Warning: Failed to load '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter': Can't find file.
+[2022.04.01-16.34.56:226][995]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2022.04.01-16.34.56:227][995]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-16.34.56:227][995]LogHotReload: Re-instancing FillTheBlanksGameMode after hot-reload.
+[2022.04.01-16.34.56:266][995]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2022.04.01-16.34.56:266][995]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-16.34.56:272][995]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-16.34.56:583][995]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0284 seconds. Added 3609 classes and 866 folders.
+[2022.04.01-16.34.56:584][995]Display: HotReload took 23.6s.
+[2022.04.01-16.34.56:591][995]Warning: HotReload operation took 23.6s.
+[2022.04.01-16.34.56:920][995]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.04.01-16.34.57:869][997]LogHotReload: New module detected: UE4Editor-FillTheBlanks-3007.dll
+[2022.04.01-16.34.57:941][998]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.01-16.34.58:102][998]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2022.04.01-16.34.58:110][998]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.04.01-16.34.58:139][998]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0158 seconds. Added 3609 classes and 866 folders.
+[2022.04.01-16.34.58:193][998]Display: HotReload took  0.3s.
+[2022.04.01-16.35.14:958][ 55]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.04.01-16.50.45:578][443]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-16.50.45:914][443]LogUObjectHash: Compacting FUObjectHashTables data took   9.50ms
+[2022.04.01-16.50.46:040][443]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile3773DBE046C67A9599E30BAEF3445BC6.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-16.50.46:077][443]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-16.50.46:077][443]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-16.51.30:567][947]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-16.51.31:012][947]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.04.01-16.51.33:436][ 72]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-16.51.33:582][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   9.18ms
+[2022.04.01-16.51.33:682][ 72]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP581F6E214803604A52C38EA27FA29471.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-16.51.33:717][ 72]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-16.51.33:717][ 72]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-16.52.08:235][872]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP1DD528DD4751CAB403CFE89C24449F4E.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-16.52.08:273][872]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-16.52.08:273][872]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-16.52.12:719][134]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-16.52.12:785][134]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2022.04.01-16.52.29:557][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TextWall)
+[2022.04.01-16.52.29:838][ 75]Cmd: DELETE
+[2022.04.01-16.52.29:839][ 75]Cmd: ACTOR DELETE
+[2022.04.01-16.52.29:854][ 75]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.01-16.52.29:895][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2022.04.01-16.52.29:897][ 75]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2022.04.01-16.52.53:801][367]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.04.01-16.52.53:833][367]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo98CB7CBA4EF94EE4164481AFCD349EDA.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-16.52.54:381][367]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltDataEB43E5854F0F0CF61C2E0BA07A1A9F05.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-16.52.54:437][367]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-16.52.54:437][367]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-16.52.54:437][367]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-16.53.02:557][833]LogEditorViewport: Clicking on Actor (LMB): TextManagerBP_C (TextManagerBP)
+[2022.04.01-16.53.17:240][662]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-16.53.17:311][662]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2022.04.01-16.53.17:434][662]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP2F88156C4822D57FC65EC985067306AE.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-16.53.17:486][662]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-16.53.17:486][662]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-16.53.22:907][946]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-16.53.22:982][946]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2022.04.01-16.53.23:120][946]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP460242184C1EFFC0FFD04182A7E15B0F.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-16.53.23:160][946]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-16.53.23:161][946]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-16.53.32:142][459]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-16.53.32:207][459]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2022.04.01-16.53.32:342][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.04.01-16.53.32:367][459]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemoE69159D64ED356E70057A7A27D60116C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-16.53.32:380][459]LogFileHelpers: Saving map 'FillInTheBlanksDemo' took 0.082
+[2022.04.01-16.53.32:418][459]AssetCheck: New page: Asset Save: FillInTheBlanksDemo
+[2022.04.01-16.53.32:418][459]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.01.49:051][461]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.01.49:114][461]Candidate modules for hot reload:
+[2022.04.01-17.01.49:114][461]  FillTheBlanks
+[2022.04.01-17.01.49:114][461]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,3165 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.01.49:413][461]Warning: Starting HotReload took  0.4s.
+[2022.04.01-17.02.06:348][372]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:02:06
+[2022.04.01-17.02.06:348][372]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.02.06:348][372]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.02.06:348][372]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.02.06:348][372]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 6.4644437 seconds
+[2022.04.01-17.02.06:348][372]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.02.06:348][372]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.02.06:348][372]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.04.01-17.02.06:348][372]CompilerResultsLog:   [1/6] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.02.06:348][372]CompilerResultsLog:   [2/6] TextManager.gen.cpp
+[2022.04.01-17.02.06:348][372]CompilerResultsLog:   [3/6] TextManager.cpp
+[2022.04.01-17.02.06:348][372]CompilerResultsLog:   [4/6] UE4Editor-FillTheBlanks-3165.lib
+[2022.04.01-17.02.06:349][372]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3165.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3165.exp
+[2022.04.01-17.02.06:349][372]CompilerResultsLog:   [5/6] UE4Editor-FillTheBlanks-3165.dll
+[2022.04.01-17.02.06:349][372]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3165.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3165.suppressed.exp
+[2022.04.01-17.02.06:349][372]CompilerResultsLog: Error:   TextManager.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UTextBlock_NoRegister(void)" (__imp_?Z_Construct_UClass_UTextBlock_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_ATextManager_Statics::NewProp_paragraphText''(void)" (??__E?NewProp_paragraphText@Z_Construct_UClass_ATextManager_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.04.01-17.02.06:349][372]CompilerResultsLog: Error:   E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Binaries\Win64\UE4Editor-FillTheBlanks-3165.dll : fatal error LNK1120: 1 unresolved externals
+[2022.04.01-17.02.06:349][372]LogMainFrame: MainFrame: Module compiling took 17.297 seconds
+[2022.04.01-17.02.06:367][372]Warning: HotReload failed, recompile failed
+[2022.04.01-17.04.54:228][344]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.04.54:278][344]Candidate modules for hot reload:
+[2022.04.01-17.04.54:278][344]  FillTheBlanks
+[2022.04.01-17.04.54:278][344]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,7227 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.04.54:281][344]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.05.03:328][850]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:05:03
+[2022.04.01-17.05.03:328][850]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.05.03:328][850]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.05.03:328][850]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 4.5004349 seconds
+[2022.04.01-17.05.03:328][850]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.05.03:328][850]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.05.03:328][850]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:   [1/6] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:   [2/6] TextManager.gen.cpp
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:   [3/6] TextManager.cpp
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:   [4/6] UE4Editor-FillTheBlanks-7227.lib
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7227.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7227.exp
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:   [5/6] UE4Editor-FillTheBlanks-7227.dll
+[2022.04.01-17.05.03:328][850]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7227.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7227.suppressed.exp
+[2022.04.01-17.05.03:329][850]CompilerResultsLog:   [6/6] FillTheBlanksEditor.target
+[2022.04.01-17.05.03:329][850]CompilerResultsLog: Total time in Parallel executor: 3.22 seconds
+[2022.04.01-17.05.03:329][850]CompilerResultsLog: Total execution time: 8.73 seconds
+[2022.04.01-17.05.03:329][850]LogMainFrame: MainFrame: Module compiling took 9.100 seconds
+[2022.04.01-17.05.03:557][850]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-17.05.03:563][850]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0015 seconds. Added 5 classes and 2 folders.
+[2022.04.01-17.05.03:563][850]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-17.05.03:569][850]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-17.05.03:810][850]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0194 seconds. Added 3609 classes and 866 folders.
+[2022.04.01-17.05.03:810][850]Display: HotReload took  9.6s.
+[2022.04.01-17.05.26:142][961]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.04.01-17.06.41:184][302]Running E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" -game -rocket -progress
+[2022.04.01-17.06.41:691][302]Discovering modules, targets and source code for project...
+[2022.04.01-17.06.43:201][302]Binding IntelliSense data...
+[2022.04.01-17.06.48:553][302]Binding IntelliSense data... 100%
+[2022.04.01-17.06.48:553][302]Writing project files...
+[2022.04.01-17.06.53:684][302]Writing project files... 100%
+[2022.04.01-17.06.53:787][302]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.06.53:833][302]Candidate modules for hot reload:
+[2022.04.01-17.06.53:833][302]  FillTheBlanks
+[2022.04.01-17.06.53:833][302]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,362 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:07:05
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Creating makefile for FillTheBlanksEditor (no existing makefile)
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 3.9828004 seconds
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:   [1/6] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:   [2/6] TextManagerWidget.cpp
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:   [3/6] TextManagerWidget.gen.cpp
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:   [4/6] UE4Editor-FillTheBlanks-0362.lib
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0362.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0362.exp
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:   [5/6] UE4Editor-FillTheBlanks-0362.dll
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0362.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0362.suppressed.exp
+[2022.04.01-17.07.05:680][302]CompilerResultsLog:   [6/6] FillTheBlanksEditor.target
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Total time in Parallel executor: 5.44 seconds
+[2022.04.01-17.07.05:680][302]CompilerResultsLog: Total execution time: 11.66 seconds
+[2022.04.01-17.07.05:680][302]LogMainFrame: MainFrame: Module compiling took 11.894 seconds
+[2022.04.01-17.07.05:705][302]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0124 seconds. Added 3609 classes and 866 folders.
+[2022.04.01-17.07.05:705][302]Display: HotReload took 11.9s.
+[2022.04.01-17.07.05:705][302]Warning: HotReload operation took 11.9s.
+[2022.04.01-17.07.05:899][302]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.04.01-17.07.06:549][303]LogHotReload: New module detected: UE4Editor-FillTheBlanks-0362.dll
+[2022.04.01-17.07.06:628][304]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.01-17.07.06:801][304]LogClass: Could not find existing class TextManagerWidget in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-17.07.06:813][304]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-17.07.06:816][304]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2022.04.01-17.07.06:817][304]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-17.07.06:825][304]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-17.07.07:080][304]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0111 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.07.07:133][304]Display: HotReload took  0.5s.
+[2022.04.01-17.07.22:996][343]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.04.01-17.08.25:224][670]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.04.01-17.08.25:271][670]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.04.01-17.08.33:235][147]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> TextManagerWidgetBP
+[2022.04.01-17.08.33:281][147]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.04.01-17.08.34:110][193]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.08.39:838][441]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.01-17.08.48:652][958]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP from UserWidget to TextManagerWidget...
+[2022.04.01-17.08.48:659][958]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.08.49:041][958]LogUObjectHash: Compacting FUObjectHashTables data took   9.49ms
+[2022.04.01-17.08.49:060][958]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.01-17.08.49:072][958]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBPFC56D5AC458960A9573F2DAC9B99156B.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.08.49:112][958]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.08.49:112][958]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.08.51:718][105]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.08.51:854][105]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2022.04.01-17.13.37:468][812]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP8C03F86D4BFDBD0E458EBD90200A538F.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.13.37:516][812]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.13.37:516][812]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.13.40:862][977]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.13.40:908][977]Candidate modules for hot reload:
+[2022.04.01-17.13.40:908][977]  FillTheBlanks
+[2022.04.01-17.13.40:908][977]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,6042 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.13.40:911][977]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.13.57:971][916]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:13:57
+[2022.04.01-17.13.57:971][916]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.13.57:971][916]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.13.57:971][916]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.13.57:972][916]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 4.6490555 seconds
+[2022.04.01-17.13.57:972][916]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.13.57:972][916]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.13.57:972][916]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [1/8] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [2/8] TextManager.cpp
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [3/8] TextManager.gen.cpp
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [4/8] TextManagerWidget.cpp
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [5/8] TextManagerWidget.gen.cpp
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [6/8] UE4Editor-FillTheBlanks-6042.lib
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6042.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6042.exp
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [7/8] UE4Editor-FillTheBlanks-6042.dll
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6042.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6042.suppressed.exp
+[2022.04.01-17.13.57:972][916]CompilerResultsLog:   [8/8] FillTheBlanksEditor.target
+[2022.04.01-17.13.57:972][916]CompilerResultsLog: Total time in Parallel executor: 11.13 seconds
+[2022.04.01-17.13.57:972][916]CompilerResultsLog: Total execution time: 16.77 seconds
+[2022.04.01-17.13.57:972][916]LogMainFrame: MainFrame: Module compiling took 17.111 seconds
+[2022.04.01-17.13.58:024][916]LogClass: Could not find existing class TextManagerWidget in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-17.13.58:032][916]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-17.13.58:039][916]LogHotReload: Re-instancing TextManagerWidget after hot-reload.
+[2022.04.01-17.13.58:180][916]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2022.04.01-17.13.58:180][916]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-17.13.58:192][916]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-17.13.58:424][916]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0098 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.13.58:425][916]Display: HotReload took 17.6s.
+[2022.04.01-17.14.36:606][949]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP4D11E6DA45655A5B16BA039A53FA3C90.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.14.36:650][949]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.14.36:650][949]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.14.51:335][742]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.14.51:474][742]LogUObjectHash: Compacting FUObjectHashTables data took  11.71ms
+[2022.04.01-17.14.51:629][742]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP357275354338CC084C0D07A177AF930A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.14.51:675][742]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.14.51:675][742]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.15.30:946][930]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.15.31:048][930]LogUObjectHash: Compacting FUObjectHashTables data took   7.82ms
+[2022.04.01-17.15.31:174][930]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBPDA81666842284CCDD6D064B908A43A31.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.15.31:220][930]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.15.31:220][930]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.15.35:826][184]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.15.35:915][184]LogUObjectHash: Compacting FUObjectHashTables data took   6.92ms
+[2022.04.01-17.15.36:033][184]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBPB2385056444711E13AFA71BF625C2B44.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.15.36:077][184]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.15.36:077][184]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.16.10:608][734]LogSlate: Window 'Add Blueprint Component' being destroyed
+[2022.04.01-17.16.45:472][455]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.16.45:586][455]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2022.04.01-17.16.45:718][455]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBPBBEFA4AC410944D450D97AB58B5B2B31.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.16.45:768][455]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.16.45:768][455]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.16.55:783][ 12]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.16.55:878][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2022.04.01-17.16.56:012][ 12]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBPD9BF4C6F434B645AE356D687622D02FA.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.16.56:053][ 12]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.16.56:053][ 12]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.17.40:164][416]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.17.40:266][416]LogUObjectHash: Compacting FUObjectHashTables data took   7.30ms
+[2022.04.01-17.17.40:386][416]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP52A31617407602C1F725E4A56A38D304.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.17.40:470][416]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.17.40:470][416]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.18.56:262][525]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2022.04.01-17.18.56:323][525]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo8F0BD09C48572C01893FAC8C54A46074.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.18.57:227][525]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData737D92624165277CD553209CBAA71B71.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.18.57:280][525]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.18.57:280][525]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.18.57:280][525]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.18.57:787][551]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.18.57:884][551]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2022.04.01-17.18.58:011][551]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBPB3A1B8694D60E82952C45EA75B9658E1.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.18.58:119][551]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.18.58:119][551]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.19.32:577][439]LogUObjectHash: Compacting FUObjectHashTables data took   7.81ms
+[2022.04.01-17.19.32:600][439]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo6B9BBB284CEF74644C0F9091E8FE2AE2.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.19.33:257][439]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData651CCE1D4DF30FB154ABD592EB878800.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.19.33:324][439]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.19.33:324][439]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.19.33:324][439]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.19.34:520][488]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.19.34:540][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.19.34:541][488]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:19:34)
+[2022.04.01-17.19.34:577][488]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.19.34:615][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038074s)
+[2022.04.01-17.19.34:622][488]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.19.34:626][488]LogPlayLevel: PIE: World Init took: (0.010142s)
+[2022.04.01-17.19.34:626][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.049015s)
+[2022.04.01-17.19.34:694][488]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2022.04.01-17.19.34:698][488]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.04.01-17.19.34:700][488]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.19.34:700][488]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.19.34:700][488]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.19.34:700][488]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.19.34:700][488]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.19.34:700][488]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.19.34:700][488]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.19.34:700][488]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.19.34:702][488]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.19.34:702][488]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.19.34:723][488]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.19.34:723][488]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.19.34:791][488]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.19.34:792][488]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.19.34:792][488]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.19.34:793][488]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.19.34:794][488]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.19.34:794][488]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.19.34:794][488]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.19.34:832][488]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.19.34:832][488]LogInit: FAudioDevice initialized.
+[2022.04.01-17.19.34:832][488]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.19.34:832][488]LogAudio: Display: Audio Device (ID: 19) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.19.34:862][488]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.19.34:874][488]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-18.19.34
+[2022.04.01-17.19.34:876][488]LogWorld: Bringing up level for play took: 0.012528
+[2022.04.01-17.19.34:881][488]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2022.04.01-17.19.34:912][488]PIE: Server logged in
+[2022.04.01-17.19.34:914][488]PIE: Play in editor total start time 0.385 seconds.
+[2022.04.01-17.19.41:277][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.19.41:277][859]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.19.41:278][859]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.19.41:280][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.19.41:299][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.19.41:316][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.19.41:372][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.19.41:374][859]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.19.41:376][859]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.19.41:414][859]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2022.04.01-17.19.41:496][860]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.04.01-17.19.46:297][126]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.19.46:303][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.19.46:303][126]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:19:46)
+[2022.04.01-17.19.46:324][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.19.46:339][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015094s)
+[2022.04.01-17.19.46:341][126]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.19.46:341][126]LogPlayLevel: PIE: World Init took: (0.001687s)
+[2022.04.01-17.19.46:341][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.016966s)
+[2022.04.01-17.19.46:405][126]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2022.04.01-17.19.46:409][126]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.19.46:409][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.19.46:409][126]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.19.46:409][126]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.19.46:420][126]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.19.46:420][126]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.19.46:476][126]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.19.46:477][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.19.46:477][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.19.46:477][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.19.46:477][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.19.46:477][126]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.19.46:478][126]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.19.46:501][126]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.19.46:502][126]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.19.46:502][126]LogInit: FAudioDevice initialized.
+[2022.04.01-17.19.46:502][126]LogAudio: Display: Audio Device (ID: 20) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.19.46:512][126]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.19.46:514][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-18.19.46
+[2022.04.01-17.19.46:515][126]LogWorld: Bringing up level for play took: 0.002437
+[2022.04.01-17.19.46:515][126]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2022.04.01-17.19.46:518][126]PIE: Server logged in
+[2022.04.01-17.19.46:520][126]PIE: Play in editor total start time 0.217 seconds.
+[2022.04.01-17.19.49:085][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.19.49:085][271]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.19.49:085][271]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.19.49:086][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.19.49:095][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.19.49:109][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.19.49:166][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.19.49:167][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.19.49:168][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.19.49:193][271]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2022.04.01-17.19.49:255][272]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.04.01-17.20.00:549][902]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2022.04.01-17.20.00:600][902]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2022.04.01-17.20.00:600][902]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2022.04.01-17.20.00:631][902]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2022.04.01-17.20.11:550][499]LogUObjectHash: Compacting FUObjectHashTables data took   6.53ms
+[2022.04.01-17.20.11:573][499]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo4E6D17A7465A211E4DC042AF261FC35D.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.20.12:203][499]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData67F85F10417092BECAF42C8854070F38.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.20.12:266][499]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.20.12:266][499]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.20.12:266][499]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.20.16:526][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.04.01-17.20.16:547][732]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo968E1E53444BFA106E1802A69AF0D0E4.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.20.17:189][732]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltDataB901D64D4C568836D32117968A3FC308.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.20.17:246][732]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.20.17:246][732]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.20.17:246][732]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.20.17:672][752]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.20.17:680][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.20.17:680][752]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:20:17)
+[2022.04.01-17.20.17:680][752]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.20.17:694][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014041s)
+[2022.04.01-17.20.17:696][752]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.20.17:697][752]LogPlayLevel: PIE: World Init took: (0.002324s)
+[2022.04.01-17.20.17:697][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.016539s)
+[2022.04.01-17.20.17:773][752]LogUObjectHash: Compacting FUObjectHashTables data took   7.63ms
+[2022.04.01-17.20.17:775][752]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.04.01-17.20.17:775][752]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.20.17:775][752]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.20.17:775][752]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.20.17:775][752]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.20.17:775][752]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.20.17:775][752]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.20.17:775][752]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.20.17:775][752]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.20.17:776][752]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.20.17:776][752]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.20.17:788][752]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.20.17:788][752]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.20.17:867][752]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.20.17:867][752]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.20.17:868][752]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.20.17:868][752]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.20.17:868][752]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.20.17:868][752]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.20.17:868][752]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.20.17:897][752]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.20.17:897][752]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.20.17:897][752]LogInit: FAudioDevice initialized.
+[2022.04.01-17.20.17:897][752]LogAudio: Display: Audio Device (ID: 21) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.20.17:912][752]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.20.17:914][752]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-18.20.17
+[2022.04.01-17.20.17:914][752]LogWorld: Bringing up level for play took: 0.001712
+[2022.04.01-17.20.17:915][752]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2022.04.01-17.20.17:918][752]PIE: Server logged in
+[2022.04.01-17.20.17:920][752]PIE: Play in editor total start time 0.242 seconds.
+[2022.04.01-17.20.23:956][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.20.23:956][106]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.20.23:956][106]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.20.23:956][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.20.23:965][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.20.23:982][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.20.24:034][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.20.24:034][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.20.24:036][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.20.24:060][106]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2022.04.01-17.20.24:139][107]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.04.01-17.20.28:793][355]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2022.04.01-17.20.28:815][355]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo4E4B55434595457F5276449F154024F1.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.20.29:459][355]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData6D1A9DEE4497124CE63455AF5C9A6196.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.20.29:523][355]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.20.29:523][355]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.20.29:523][355]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.20.50:566][402]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.20.50:654][402]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2022.04.01-17.20.50:786][402]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectileA29C38364FA12046A9FA9FBD24BBDFFF.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.20.50:831][402]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.20.50:831][402]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.21.39:345][ 54]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.21.39:450][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   8.43ms
+[2022.04.01-17.21.39:589][ 54]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile49BBFD8346535C8371D0CAB05B7BEE65.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.21.39:630][ 54]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.21.39:630][ 54]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.21.49:619][605]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.21.49:635][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.21.49:635][605]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:21:49)
+[2022.04.01-17.21.49:635][605]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.21.49:649][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014265s)
+[2022.04.01-17.21.49:651][605]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.21.49:651][605]LogPlayLevel: PIE: World Init took: (0.001721s)
+[2022.04.01-17.21.49:651][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.016222s)
+[2022.04.01-17.21.49:717][605]LogUObjectHash: Compacting FUObjectHashTables data took   7.77ms
+[2022.04.01-17.21.49:720][605]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.04.01-17.21.49:720][605]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.21.49:720][605]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.21.49:720][605]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.21.49:720][605]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.21.49:720][605]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.21.49:720][605]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.21.49:720][605]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.21.49:720][605]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.21.49:721][605]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.21.49:721][605]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.21.49:731][605]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.21.49:731][605]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.21.49:790][605]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.21.49:790][605]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.21.49:790][605]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.21.49:790][605]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.21.49:791][605]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.21.49:791][605]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.21.49:791][605]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.21.49:811][605]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.21.49:811][605]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.21.49:811][605]LogInit: FAudioDevice initialized.
+[2022.04.01-17.21.49:811][605]LogAudio: Display: Audio Device (ID: 22) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.21.49:823][605]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.21.49:826][605]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-18.21.49
+[2022.04.01-17.21.49:826][605]LogWorld: Bringing up level for play took: 0.001822
+[2022.04.01-17.21.49:826][605]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2022.04.01-17.21.49:830][605]PIE: Server logged in
+[2022.04.01-17.21.49:831][605]PIE: Play in editor total start time 0.198 seconds.
+[2022.04.01-17.21.59:875][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.21.59:875][198]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.21.59:876][198]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.21.59:876][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.21.59:886][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.21.59:903][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.21.59:961][198]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-17.21.59:961][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.21.59:962][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.21.59:985][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.21.59:992][198]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2022.04.01-17.22.00:094][199]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.04.01-17.22.24:253][493]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.22.24:351][493]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2022.04.01-17.22.24:464][493]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile4C277FF54C47412ED04F3A9F2816790A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.22.24:501][493]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.22.24:501][493]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.22.25:485][530]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.22.25:491][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.22.25:491][530]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:22:25)
+[2022.04.01-17.22.25:491][530]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.22.25:503][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011095s)
+[2022.04.01-17.22.25:504][530]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.22.25:504][530]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2022.04.01-17.22.25:504][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.013014s)
+[2022.04.01-17.22.25:565][530]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2022.04.01-17.22.25:567][530]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.04.01-17.22.25:567][530]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.22.25:567][530]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.22.25:567][530]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.22.25:567][530]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.22.25:567][530]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.22.25:567][530]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.22.25:567][530]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.22.25:567][530]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.22.25:568][530]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.22.25:568][530]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.22.25:577][530]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.22.25:577][530]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.22.25:625][530]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.22.25:626][530]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.22.25:626][530]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.22.25:626][530]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.22.25:626][530]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.22.25:627][530]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.22.25:627][530]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.22.25:647][530]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.22.25:647][530]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.22.25:647][530]LogInit: FAudioDevice initialized.
+[2022.04.01-17.22.25:648][530]LogAudio: Display: Audio Device (ID: 23) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.22.25:659][530]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.22.25:661][530]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-18.22.25
+[2022.04.01-17.22.25:662][530]LogWorld: Bringing up level for play took: 0.001431
+[2022.04.01-17.22.25:662][530]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2022.04.01-17.22.25:665][530]PIE: Server logged in
+[2022.04.01-17.22.25:666][530]PIE: Play in editor total start time 0.177 seconds.
+[2022.04.01-17.22.28:555][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.22.28:555][695]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.22.28:556][695]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.22.28:556][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.22.28:569][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.22.28:585][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.22.28:639][695]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-17.22.28:639][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.22.28:640][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.22.28:675][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.22.28:686][695]LogUObjectHash: Compacting FUObjectHashTables data took   8.07ms
+[2022.04.01-17.22.28:776][696]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.04.01-17.22.30:182][761]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.22.30:197][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.22.30:197][761]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:22:30)
+[2022.04.01-17.22.30:224][761]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.22.30:236][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011644s)
+[2022.04.01-17.22.30:238][761]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.22.30:238][761]LogPlayLevel: PIE: World Init took: (0.002268s)
+[2022.04.01-17.22.30:238][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.014169s)
+[2022.04.01-17.22.30:307][761]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2022.04.01-17.22.30:310][761]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.04.01-17.22.30:310][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.22.30:310][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.22.30:310][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.22.30:310][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.22.30:310][761]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.22.30:310][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.22.30:310][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.22.30:310][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.22.30:310][761]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.22.30:311][761]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.22.30:321][761]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.22.30:321][761]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.22.30:381][761]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.22.30:381][761]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.22.30:381][761]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.22.30:381][761]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.22.30:381][761]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.22.30:381][761]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.22.30:381][761]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.22.30:405][761]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.22.30:405][761]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.22.30:405][761]LogInit: FAudioDevice initialized.
+[2022.04.01-17.22.30:405][761]LogAudio: Display: Audio Device (ID: 24) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.22.30:416][761]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.22.30:418][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-18.22.30
+[2022.04.01-17.22.30:419][761]LogWorld: Bringing up level for play took: 0.001474
+[2022.04.01-17.22.30:419][761]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2022.04.01-17.22.30:422][761]PIE: Server logged in
+[2022.04.01-17.22.30:423][761]PIE: Play in editor total start time 0.227 seconds.
+[2022.04.01-17.22.33:755][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.22.33:755][950]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.22.33:755][950]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.22.33:756][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.22.33:765][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.22.33:780][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.22.33:832][950]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-17.22.33:832][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.22.33:833][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.22.33:854][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.22.33:862][950]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2022.04.01-17.22.33:937][951]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.04.01-17.23.03:885][601]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.23.03:984][601]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2022.04.01-17.23.04:098][601]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile63E665B348C15F38A9B1C9BDEB0CA806.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.23.04:146][601]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.23.04:146][601]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.23.05:085][638]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.23.05:090][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.23.05:090][638]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:23:05)
+[2022.04.01-17.23.05:092][638]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.23.05:105][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012754s)
+[2022.04.01-17.23.05:107][638]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.23.05:107][638]LogPlayLevel: PIE: World Init took: (0.002175s)
+[2022.04.01-17.23.05:107][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.015146s)
+[2022.04.01-17.23.05:173][638]LogUObjectHash: Compacting FUObjectHashTables data took   7.04ms
+[2022.04.01-17.23.05:175][638]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.23.05:175][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.23.05:175][638]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.23.05:175][638]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.23.05:183][638]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.23.05:183][638]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.23.05:243][638]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.23.05:244][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.23.05:244][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.23.05:244][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.23.05:244][638]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.23.05:244][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.23.05:244][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.23.05:266][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.23.05:266][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.23.05:266][638]LogInit: FAudioDevice initialized.
+[2022.04.01-17.23.05:266][638]LogAudio: Display: Audio Device (ID: 25) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.23.05:281][638]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.23.05:283][638]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-18.23.05
+[2022.04.01-17.23.05:284][638]LogWorld: Bringing up level for play took: 0.001332
+[2022.04.01-17.23.05:284][638]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2022.04.01-17.23.05:288][638]PIE: Server logged in
+[2022.04.01-17.23.05:289][638]PIE: Play in editor total start time 0.199 seconds.
+[2022.04.01-17.23.08:596][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.23.08:596][830]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.23.08:596][830]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.23.08:596][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.23.08:609][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.23.08:626][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.23.08:678][830]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-17.23.08:679][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.23.08:680][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.23.08:700][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.23.08:706][830]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2022.04.01-17.23.08:804][831]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2022.04.01-17.23.17:471][275]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.23.17:575][275]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2022.04.01-17.23.17:689][275]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectileDFA48FD94EEFC9C867E4D49D53A1FD90.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.23.17:735][275]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.23.17:735][275]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.23.20:094][377]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.23.20:196][377]LogUObjectHash: Compacting FUObjectHashTables data took   7.01ms
+[2022.04.01-17.23.20:311][377]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP10CF08B045B97D2A470F12BAA6B530F9.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.23.20:375][377]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.23.20:375][377]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.23.44:234][718]LogUObjectHash: Compacting FUObjectHashTables data took   7.54ms
+[2022.04.01-17.23.44:256][718]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo77673D144AB40A05B7D568907C7334EC.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.23.44:892][718]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData00E819B647EDEB1CC7928E83D4EFB5EA.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.23.44:956][718]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.23.44:956][718]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.23.44:956][718]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.24.39:474][716]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.24.39:543][716]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2022.04.01-17.24.39:701][716]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBPC52FD82849101745DAB631AAAEE41B5B.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.24.39:778][716]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.24.39:778][716]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.24.54:216][540]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.24.54:319][540]LogUObjectHash: Compacting FUObjectHashTables data took   8.67ms
+[2022.04.01-17.24.54:477][540]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP5D2682954D0E50A4084E7091F9EF321A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.24.54:526][540]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.24.54:526][540]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.25.08:880][333]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.25.08:969][333]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2022.04.01-17.25.09:141][333]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP42008F1042FD957FB4442AA738CC9DF6.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.25.09:199][333]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.25.09:199][333]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.25.30:086][500]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.25.30:182][500]LogUObjectHash: Compacting FUObjectHashTables data took   6.30ms
+[2022.04.01-17.25.30:329][500]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP74B7A60D4B873D973EB10991F31C573D.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.25.30:417][500]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.25.30:417][500]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.25.35:316][765]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.25.35:409][765]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2022.04.01-17.25.35:553][765]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBPBFD6334D4ED095DCA31E868F18635CDA.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.25.35:629][765]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.25.35:629][765]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.26.33:296][693]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.26.33:410][693]LogUObjectHash: Compacting FUObjectHashTables data took   9.73ms
+[2022.04.01-17.26.33:542][693]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP8C7D36664A4716C67576A09982E28821.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.26.33:581][693]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.26.33:581][693]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.28.10:433][389]LogSlate: Window 'TextManagerBP' being destroyed
+[2022.04.01-17.28.13:586][621]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.01-17.28.21:872][469]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.28.21:979][469]LogUObjectHash: Compacting FUObjectHashTables data took   7.56ms
+[2022.04.01-17.28.22:130][469]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP0CF4DB1F40E1DCDC53F1F7BA0DA49DAC.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.28.22:183][469]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.28.22:183][469]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.29.01:431][717]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.29.01:552][717]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2022.04.01-17.29.01:688][717]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBPE229FFC746A531C093AF3D8B87160756.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.29.01:773][717]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.29.01:773][717]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.29.23:070][891]LogEditorTransaction: Undo Modify Component(s)
+[2022.04.01-17.29.24:670][985]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBPDF60A5954B09C5736E550C9DCC4F8FBC.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.29.24:724][985]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.29.24:724][985]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.29.39:369][980]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.29.39:513][980]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
+[2022.04.01-17.29.48:408][924]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP6A8D6FBE4B0530483E38E9A37B04867E.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.29.48:453][924]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.29.48:453][924]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.29.49:552][  3]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.29.49:668][  3]LogUObjectHash: Compacting FUObjectHashTables data took   7.63ms
+[2022.04.01-17.30.03:371][283]LogUObjectHash: Compacting FUObjectHashTables data took   7.45ms
+[2022.04.01-17.30.03:392][283]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo5F6A3ADC4DA35C44D1D31C86039D2DCC.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.30.04:065][283]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData0CC61FD645A02899CE08ABB2E38B522B.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.30.04:120][283]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.30.04:120][283]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.30.04:120][283]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.30.57:656][665]LogD3D12RHI: Creating RTPSO with 135 shaders (0 cached, 1 new) took 63.16 ms. Compile time 26.96 ms, link time 26.36 ms.
+[2022.04.01-17.30.57:762][667]LogD3D12RHI: Creating RTPSO with 136 shaders (0 cached, 1 new) took 99.92 ms. Compile time 95.73 ms, link time 3.88 ms.
+[2022.04.01-17.31.20:563][811]LogD3D12RHI: Creating RTPSO with 137 shaders (0 cached, 1 new) took 104.47 ms. Compile time 100.56 ms, link time 3.70 ms.
+[2022.04.01-17.31.26:198][237]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.31.26:317][237]LogUObjectHash: Compacting FUObjectHashTables data took   9.19ms
+[2022.04.01-17.31.26:456][237]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBPDD356B6F44FAE0EDF06889961685589A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.31.26:526][237]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.31.26:526][237]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.31.27:996][370]LogD3D12RHI: Creating RTPSO with 141 shaders (3 cached, 0 new) took 12.25 ms. Compile time 0.03 ms, link time 8.64 ms.
+[2022.04.01-17.31.50:486][380]LogEditorTransaction: Undo Make New Scene Root
+[2022.04.01-17.32.08:406][ 95]LogEditorTransaction: Undo Attach Component
+[2022.04.01-17.32.08:817][104]LogEditorTransaction: Undo Make New Scene Root
+[2022.04.01-17.32.09:052][118]LogEditorTransaction: Undo Replace component used material
+[2022.04.01-17.32.09:477][164]LogEditorTransaction: Undo Replace component used material
+[2022.04.01-17.32.09:911][215]LogEditorTransaction: Undo Modify Component(s)
+[2022.04.01-17.32.10:407][263]LogEditorTransaction: Undo Add Component
+[2022.04.01-17.32.11:793][396]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.32.11:918][396]LogUObjectHash: Compacting FUObjectHashTables data took   7.10ms
+[2022.04.01-17.32.12:049][396]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP3AE77CC545D8183427346EA2305E55AA.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.32.12:129][396]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.32.12:129][396]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.33.03:984][240]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.33.04:094][240]LogUObjectHash: Compacting FUObjectHashTables data took   6.95ms
+[2022.04.01-17.33.04:238][240]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP510AABBA4CB05925B654A39406837B2A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.33.04:288][240]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.33.04:288][240]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.33.15:757][344]LogUObjectHash: Compacting FUObjectHashTables data took   7.94ms
+[2022.04.01-17.33.15:782][344]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo50070C8842A6AC48D24B5FA0199F42FF.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.33.16:440][344]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData9FF04F9B4C9A7BB554ED0ABDA35E7A08.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.33.16:529][344]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.33.16:529][344]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.33.16:529][344]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.33.46:132][327]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.33.46:336][327]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2022.04.01-17.33.46:467][327]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP9658CD5741C20C9FCABD14BBE825CF6C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.33.46:506][327]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.33.46:506][327]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.34.19:141][686]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.34.19:350][686]LogUObjectHash: Compacting FUObjectHashTables data took   7.83ms
+[2022.04.01-17.34.19:484][686]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP618105E843A34C166DE3D5A7606594B5.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.34.19:528][686]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.34.19:528][686]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.34.26:702][299]LogUObjectHash: Compacting FUObjectHashTables data took   9.20ms
+[2022.04.01-17.34.26:729][299]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo073354F44DC47199EF7DE9B56D7FD817.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.34.27:379][299]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData627C32C741C46566686B029E2E89F40D.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.34.27:447][299]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.34.27:447][299]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.34.27:447][299]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.34.53:020][798]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2022.04.01-17.34.53:041][798]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo3599AD8B45B12E0E611CBCA6FA609F03.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.34.53:674][798]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltDataE7BD4A3045EF32E0D1AE22AFEB855ABC.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.34.53:734][798]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.34.53:734][798]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.34.53:734][798]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.35.05:920][939]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.35.06:030][939]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2022.04.01-17.35.06:184][939]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP88575989495C43D025D8989891AA3FEE.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.35.06:265][939]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.35.06:265][939]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.35.18:757][199]LogUObjectHash: Compacting FUObjectHashTables data took   7.18ms
+[2022.04.01-17.35.18:777][199]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo47AC5D454B91AEFF7ED040B622DD0CBF.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.35.19:380][199]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltDataFA6B578A4BF836C8A74A48BABC4E8A04.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.35.19:438][199]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.35.19:438][199]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.35.19:438][199]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.37.46:767][866]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.37.46:813][866]Candidate modules for hot reload:
+[2022.04.01-17.37.46:813][866]  FillTheBlanks
+[2022.04.01-17.37.46:813][866]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,6343 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.37.46:818][866]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.38.05:958][725]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:38:05
+[2022.04.01-17.38.05:958][725]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.38.05:958][725]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.38.05:958][725]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.38.05:958][725]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 5.436749 seconds
+[2022.04.01-17.38.05:958][725]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.38.05:958][725]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.38.05:959][725]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:   [1/6] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:   [2/6] TextManagerWidget.cpp
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:   [3/6] TextManagerWidget.gen.cpp
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:   [4/6] UE4Editor-FillTheBlanks-6343.lib
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6343.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6343.exp
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:   [5/6] UE4Editor-FillTheBlanks-6343.dll
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6343.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-6343.suppressed.exp
+[2022.04.01-17.38.05:959][725]CompilerResultsLog:   [6/6] FillTheBlanksEditor.target
+[2022.04.01-17.38.05:959][725]CompilerResultsLog: Total time in Parallel executor: 12.24 seconds
+[2022.04.01-17.38.05:959][725]CompilerResultsLog: Total execution time: 18.86 seconds
+[2022.04.01-17.38.05:959][725]LogMainFrame: MainFrame: Module compiling took 19.193 seconds
+[2022.04.01-17.38.06:020][725]LogClass: Could not find existing class TextManagerWidget in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-17.38.06:029][725]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-17.38.06:035][725]LogHotReload: Re-instancing TextManagerWidget after hot-reload.
+[2022.04.01-17.38.06:178][725]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2022.04.01-17.38.06:178][725]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-17.38.06:187][725]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-17.38.06:467][725]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.38.06:467][725]Display: HotReload took 19.7s.
+[2022.04.01-17.39.30:786][383]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.39.30:940][383]LogUObjectHash: Compacting FUObjectHashTables data took  10.19ms
+[2022.04.01-17.39.31:069][383]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectileABD70C2F4887B9D5ACC6E98F437E0200.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.39.31:114][383]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.39.31:114][383]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.39.39:441][ 43]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-17.39.40:539][134]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.39.40:671][134]LogUObjectHash: Compacting FUObjectHashTables data took   8.17ms
+[2022.04.01-17.39.40:801][134]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectileE69B72CF4F785B70F8745091FF31BCED.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.39.40:842][134]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.39.40:842][134]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.39.41:908][210]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.39.41:917][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.39.41:917][210]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:39:41)
+[2022.04.01-17.39.41:919][210]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.39.41:933][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013642s)
+[2022.04.01-17.39.41:935][210]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.39.41:935][210]LogPlayLevel: PIE: World Init took: (0.002215s)
+[2022.04.01-17.39.41:935][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.016077s)
+[2022.04.01-17.39.41:997][210]LogUObjectHash: Compacting FUObjectHashTables data took   6.87ms
+[2022.04.01-17.39.41:999][210]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.39.41:999][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.39.41:999][210]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.39.41:999][210]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.39.42:009][210]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.39.42:009][210]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.39.42:061][210]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.39.42:061][210]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.39.42:061][210]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.39.42:061][210]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.39.42:063][210]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.39.42:063][210]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.39.42:063][210]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.39.42:084][210]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.39.42:084][210]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.39.42:084][210]LogInit: FAudioDevice initialized.
+[2022.04.01-17.39.42:084][210]LogAudio: Display: Audio Device (ID: 26) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.39.42:096][210]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.39.42:099][210]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 0) at 2022.04.01-18.39.42
+[2022.04.01-17.39.42:099][210]LogWorld: Bringing up level for play took: 0.002002
+[2022.04.01-17.39.42:099][210]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2022.04.01-17.39.42:103][210]PIE: Server logged in
+[2022.04.01-17.39.42:104][210]PIE: Play in editor total start time 0.19 seconds.
+[2022.04.01-17.39.45:066][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.39.45:066][542]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.39.45:066][542]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.39.45:066][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.39.45:080][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.39.45:093][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.39.45:153][542]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-17.39.45:153][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.39.45:154][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.39.45:175][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.39.45:182][542]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2022.04.01-17.39.45:231][543]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2022.04.01-17.40.03:598][188]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.40.03:598][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.40.03:629][188]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.40.03:629][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.40.13:764][ 41]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.40.13:764][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.40.37:108][595]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.40.37:374][595]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2022.04.01-17.40.37:508][595]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile99DF4748460680F9C232C6B1D2052E3A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.40.37:546][595]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.40.37:546][595]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.40.46:064][450]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.40.46:297][450]LogUObjectHash: Compacting FUObjectHashTables data took   8.06ms
+[2022.04.01-17.40.46:414][450]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectileCF73BBDE49CDAD3F0C00DCB8229CFD59.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.40.46:454][450]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.40.46:454][450]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.40.47:824][551]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.40.47:831][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.40.47:831][551]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:40:47)
+[2022.04.01-17.40.47:831][551]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.40.47:846][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014840s)
+[2022.04.01-17.40.47:847][551]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.40.47:848][551]LogPlayLevel: PIE: World Init took: (0.001633s)
+[2022.04.01-17.40.47:848][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.016660s)
+[2022.04.01-17.40.47:898][551]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2022.04.01-17.40.47:901][551]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.40.47:901][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.40.47:901][551]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.40.47:901][551]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.40.47:911][551]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.40.47:911][551]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.40.47:960][551]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.40.47:961][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.40.47:961][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.40.47:961][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.40.47:961][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.40.47:961][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.40.47:961][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.40.47:985][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.40.47:985][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.40.47:986][551]LogInit: FAudioDevice initialized.
+[2022.04.01-17.40.47:986][551]LogAudio: Display: Audio Device (ID: 27) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.40.47:999][551]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.40.48:001][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 0) at 2022.04.01-18.40.48
+[2022.04.01-17.40.48:002][551]LogWorld: Bringing up level for play took: 0.002043
+[2022.04.01-17.40.48:002][551]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2022.04.01-17.40.48:005][551]PIE: Server logged in
+[2022.04.01-17.40.48:007][551]PIE: Play in editor total start time 0.177 seconds.
+[2022.04.01-17.40.52:145][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.40.52:145][ 30]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.40.52:146][ 30]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.40.52:146][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.40.52:159][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.40.52:172][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.40.52:215][ 30]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-17.40.52:216][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.40.52:217][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.40.52:242][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.40.52:249][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2022.04.01-17.40.52:298][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2022.04.01-17.41.03:500][921]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-17.41.04:887][ 23]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.41.04:956][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2022.04.01-17.41.05:080][ 23]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile2D002263402A87BA53E8F1BD98461DBF.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.41.05:121][ 23]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.41.05:121][ 23]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.41.26:185][303]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.41.26:265][303]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2022.04.01-17.41.26:377][303]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile6E3B4B9540066FD8D6488F8E32D52964.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.41.26:411][303]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.41.26:411][303]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.41.41:402][832]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.41.41:480][832]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2022.04.01-17.41.41:598][832]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectileA231A2104FF3638CBE6CC4B392F754F9.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.41.41:673][832]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.41.41:673][832]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.41.43:228][923]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-17.41.43:235][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-17.41.43:235][923]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 19:41:43)
+[2022.04.01-17.41.43:245][923]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.41.43:257][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012444s)
+[2022.04.01-17.41.43:258][923]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-17.41.43:259][923]LogPlayLevel: PIE: World Init took: (0.001576s)
+[2022.04.01-17.41.43:259][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.014199s)
+[2022.04.01-17.41.43:311][923]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2022.04.01-17.41.43:313][923]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.04.01-17.41.43:313][923]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-17.41.43:313][923]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-17.41.43:313][923]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-17.41.43:313][923]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-17.41.43:314][923]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-17.41.43:314][923]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-17.41.43:314][923]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-17.41.43:314][923]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-17.41.43:314][923]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-17.41.43:314][923]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-17.41.43:323][923]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.41.43:323][923]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.41.43:376][923]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-17.41.43:376][923]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-17.41.43:376][923]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-17.41.43:377][923]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-17.41.43:377][923]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-17.41.43:377][923]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-17.41.43:377][923]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-17.41.43:400][923]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-17.41.43:400][923]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-17.41.43:400][923]LogInit: FAudioDevice initialized.
+[2022.04.01-17.41.43:400][923]LogAudio: Display: Audio Device (ID: 28) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-17.41.43:414][923]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-17.41.43:416][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 0) at 2022.04.01-18.41.43
+[2022.04.01-17.41.43:416][923]LogWorld: Bringing up level for play took: 0.001280
+[2022.04.01-17.41.43:416][923]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2022.04.01-17.41.43:419][923]PIE: Server logged in
+[2022.04.01-17.41.43:420][923]PIE: Play in editor total start time 0.187 seconds.
+[2022.04.01-17.41.48:546][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.41.48:546][519]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-17.41.48:547][519]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-17.41.48:547][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.41.48:562][519]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-17.41.48:577][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-17.41.48:622][519]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-17.41.48:622][519]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.41.48:624][519]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-17.41.48:646][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-17.41.48:652][519]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2022.04.01-17.41.48:702][520]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.04.01-17.42.16:795][119]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.42.16:874][119]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2022.04.01-17.42.17:006][119]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectileB6C47929458FE947E5C5CEAD91328D07.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.01-17.42.17:044][119]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.01-17.42.17:044][119]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.01-17.42.17:712][194]LogEditorTransaction: Undo Edit Font
+[2022.04.01-17.42.18:984][269]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.01-17.42.19:056][269]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2022.04.01-17.43.00:718][546]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.43.00:771][546]Candidate modules for hot reload:
+[2022.04.01-17.43.00:772][546]  FillTheBlanks
+[2022.04.01-17.43.00:772][546]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,1700 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.43.00:778][546]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.43.03:703][771]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:43:03
+[2022.04.01-17.43.03:703][771]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.43.03:703][771]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.43.03:703][771]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.43.03:703][771]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.04.01-17.43.03:703][771]CompilerResultsLog:   [1/3] UE4Editor-FillTheBlanks-1700.lib
+[2022.04.01-17.43.03:703][771]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1700.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1700.exp
+[2022.04.01-17.43.03:703][771]CompilerResultsLog:   [2/3] UE4Editor-FillTheBlanks-1700.dll
+[2022.04.01-17.43.03:703][771]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1700.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1700.suppressed.exp
+[2022.04.01-17.43.03:703][771]CompilerResultsLog:   [3/3] FillTheBlanksEditor.target
+[2022.04.01-17.43.03:703][771]CompilerResultsLog: Total time in Parallel executor: 1.46 seconds
+[2022.04.01-17.43.03:703][771]CompilerResultsLog: Total execution time: 2.47 seconds
+[2022.04.01-17.43.03:703][771]LogMainFrame: MainFrame: Module compiling took 2.986 seconds
+[2022.04.01-17.43.03:776][771]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-17.43.03:779][771]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2022.04.01-17.43.03:779][771]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-17.43.03:788][771]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-17.43.04:038][771]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.43.04:038][771]Display: HotReload took  3.3s.
+[2022.04.01-17.43.48:058][870]BlueprintLog: New page: Compile TextManagerWidgetBP
+[2022.04.01-17.43.48:216][870]LogUObjectHash: Compacting FUObjectHashTables data took   7.67ms
+[2022.04.01-17.43.48:332][870]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerWidgetBP34137EA342AF5E9935B448AFECC4E0CE.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset'
+[2022.04.01-17.43.48:379][870]AssetCheck: New page: Asset Save: TextManagerWidgetBP
+[2022.04.01-17.43.48:379][870]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP
+[2022.04.01-17.44.23:362][930]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{4ea79d91-801b-4968-b8f9-3bc06f7b8d16}.
+[2022.04.01-17.44.23:386][930]LogAudioMixer: Resetting audio stream to device id 
+[2022.04.01-17.44.23:745][930]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-17.44.23:745][930]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-17.45.31:677][716]LogUObjectHash: Compacting FUObjectHashTables data took   8.33ms
+[2022.04.01-17.45.31:700][716]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_Auto785B4DAAE4663255346822DA9D7807F7A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/Autosaves/Game/Maps/FillInTheBlanksDemo_Auto7.umap'
+[2022.04.01-17.45.31:701][716]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.127
+[2022.04.01-17.45.31:701][716]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.127
+[2022.04.01-17.48.27:282][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.04.01-17.48.27:312][639]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo0145CC0441B0AEFACCE571B686F06167.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.48.27:926][639]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData613BEACE411EF29A204F91AD6CC7987F.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.48.27:990][639]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.48.27:990][639]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.48.27:991][639]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.48.28:528][670]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.48.28:581][670]Candidate modules for hot reload:
+[2022.04.01-17.48.28:581][670]  FillTheBlanks
+[2022.04.01-17.48.28:581][670]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,648 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.48.28:594][670]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.48.47:650][620]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:48:47
+[2022.04.01-17.48.47:650][620]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.48.47:650][620]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.48.47:650][620]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.48.47:650][620]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 5.5679076 seconds
+[2022.04.01-17.48.47:650][620]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.48.47:650][620]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.48.47:650][620]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.04.01-17.48.47:650][620]CompilerResultsLog:   [1/8] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.48.47:650][620]CompilerResultsLog:   [2/8] TextManager.cpp
+[2022.04.01-17.48.47:650][620]CompilerResultsLog:   [3/8] TextManager.gen.cpp
+[2022.04.01-17.48.47:650][620]CompilerResultsLog:   [4/8] TextManagerWidget.cpp
+[2022.04.01-17.48.47:650][620]CompilerResultsLog:   [5/8] TextManagerWidget.gen.cpp
+[2022.04.01-17.48.47:650][620]CompilerResultsLog:   [6/8] UE4Editor-FillTheBlanks-0648.lib
+[2022.04.01-17.48.47:651][620]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0648.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0648.exp
+[2022.04.01-17.48.47:651][620]CompilerResultsLog:   [7/8] UE4Editor-FillTheBlanks-0648.dll
+[2022.04.01-17.48.47:651][620]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0648.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0648.suppressed.exp
+[2022.04.01-17.48.47:651][620]CompilerResultsLog:   [8/8] FillTheBlanksEditor.target
+[2022.04.01-17.48.47:651][620]CompilerResultsLog: Total time in Parallel executor: 12.11 seconds
+[2022.04.01-17.48.47:651][620]CompilerResultsLog: Total execution time: 18.81 seconds
+[2022.04.01-17.48.47:651][620]LogMainFrame: MainFrame: Module compiling took 19.123 seconds
+[2022.04.01-17.48.47:673][620]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.48.47:673][620]Display: HotReload took 19.1s.
+[2022.04.01-17.54.29:894][159]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.54.29:949][159]Candidate modules for hot reload:
+[2022.04.01-17.54.29:950][159]  FillTheBlanks
+[2022.04.01-17.54.29:950][159]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,7170 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.54.29:953][159]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.54.47:104][956]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:54:47
+[2022.04.01-17.54.47:104][956]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.54.47:104][956]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.54.47:104][956]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.54.47:105][956]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 5.4107332 seconds
+[2022.04.01-17.54.47:105][956]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.54.47:105][956]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.54.47:105][956]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [1/8] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [2/8] TextManagerWidget.cpp
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [3/8] TextManager.cpp
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [4/8] TextManagerWidget.gen.cpp
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [5/8] TextManager.gen.cpp
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [6/8] UE4Editor-FillTheBlanks-7170.lib
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7170.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7170.exp
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [7/8] UE4Editor-FillTheBlanks-7170.dll
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7170.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7170.suppressed.exp
+[2022.04.01-17.54.47:105][956]CompilerResultsLog:   [8/8] FillTheBlanksEditor.target
+[2022.04.01-17.54.47:105][956]CompilerResultsLog: Total time in Parallel executor: 10.20 seconds
+[2022.04.01-17.54.47:105][956]CompilerResultsLog: Total execution time: 16.80 seconds
+[2022.04.01-17.54.47:105][956]LogMainFrame: MainFrame: Module compiling took 17.211 seconds
+[2022.04.01-17.54.47:180][956]LogClass: Could not find existing class TextManager in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-17.54.47:180][956]LogClass: Could not find existing class TextManagerWidget in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-17.54.47:180][956]LogClass: Function Initialise is new.
+[2022.04.01-17.54.47:180][956]LogClass: Function PublicTick is new.
+[2022.04.01-17.54.47:189][956]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-17.54.47:196][956]LogHotReload: Re-instancing TextManager after hot-reload.
+[2022.04.01-17.54.47:291][956]LogHotReload: Re-instancing TextManagerWidget after hot-reload.
+[2022.04.01-17.54.47:372][956]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2022.04.01-17.54.47:372][956]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-17.54.47:381][956]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-17.54.47:672][956]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.54.47:672][956]Display: HotReload took 17.8s.
+[2022.04.01-17.55.00:238][298]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.01-17.55.24:084][859]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.55.24:305][859]LogUObjectHash: Compacting FUObjectHashTables data took   7.62ms
+[2022.04.01-17.55.24:438][859]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP16C9AE614B0F09235D6C518E8DEA383C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.55.24:481][859]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.55.24:481][859]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.55.26:282][985]LogUObjectHash: Compacting FUObjectHashTables data took  10.21ms
+[2022.04.01-17.55.26:307][985]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo00BC7A484606A0FE4D123690368586E4.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.55.26:889][985]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData0763B28C48E0A5E9CB753B9B85FCC077.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.55.26:920][985]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.55.26:920][985]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.55.26:920][985]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.57.31:084][251]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.57.31:140][251]Candidate modules for hot reload:
+[2022.04.01-17.57.31:140][251]  FillTheBlanks
+[2022.04.01-17.57.31:140][251]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,232 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.57.31:144][251]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.57.38:579][921]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:57:38
+[2022.04.01-17.57.38:579][921]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.57.38:579][921]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.57.38:579][921]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.57.38:579][921]CompilerResultsLog: Error: E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Source/FillTheBlanks/TextManager.h(21)  : Error: Missing '>' in 'class limitor'
+[2022.04.01-17.57.38:579][921]LogMainFrame: MainFrame: Module compiling took 7.495 seconds
+[2022.04.01-17.57.38:580][921]Warning: HotReload failed, recompile failed
+[2022.04.01-17.58.10:564][207]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.58.10:619][207]Candidate modules for hot reload:
+[2022.04.01-17.58.10:619][207]  FillTheBlanks
+[2022.04.01-17.58.10:619][207]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,540 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.58.10:622][207]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.58.28:906][538]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:58:28
+[2022.04.01-17.58.28:907][538]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.58.28:907][538]CompilerResultsLog: Parsing headers for FillTheBlanksEditor
+[2022.04.01-17.58.28:907][538]CompilerResultsLog:   Running UnrealHeaderTool "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\FillTheBlanks.uproject" "E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\FillTheBlanksEditor\Development\FillTheBlanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anime\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.01-17.58.28:908][538]CompilerResultsLog: Reflection code generated for FillTheBlanksEditor in 4.8097915 seconds
+[2022.04.01-17.58.28:908][538]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.58.28:908][538]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.58.28:908][538]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [1/8] FillTheBlanks.init.gen.cpp
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [2/8] TextManagerWidget.cpp
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [3/8] TextManager.cpp
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [4/8] TextManager.gen.cpp
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [5/8] TextManagerWidget.gen.cpp
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [6/8] UE4Editor-FillTheBlanks-0540.lib
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0540.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0540.exp
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [7/8] UE4Editor-FillTheBlanks-0540.dll
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0540.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-0540.suppressed.exp
+[2022.04.01-17.58.28:908][538]CompilerResultsLog:   [8/8] FillTheBlanksEditor.target
+[2022.04.01-17.58.28:908][538]CompilerResultsLog: Total time in Parallel executor: 12.14 seconds
+[2022.04.01-17.58.28:908][538]CompilerResultsLog: Total execution time: 17.98 seconds
+[2022.04.01-17.58.28:908][538]LogMainFrame: MainFrame: Module compiling took 18.344 seconds
+[2022.04.01-17.58.28:946][538]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0140 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.58.28:946][538]Display: HotReload took 18.4s.
+[2022.04.01-17.58.40:026][332]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.01-17.58.42:841][564]BlueprintLog: New page: Compile TextManagerBP
+[2022.04.01-17.58.42:982][564]LogUObjectHash: Compacting FUObjectHashTables data took   9.49ms
+[2022.04.01-17.58.43:155][564]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/TextManagerBP5F0F69C44129162A5D79DA94C03E5C1E.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset'
+[2022.04.01-17.58.43:195][564]AssetCheck: New page: Asset Save: TextManagerBP
+[2022.04.01-17.58.43:195][564]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/TextBlock/TextManagerBP.TextManagerBP
+[2022.04.01-17.59.27:266][570]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2022.04.01-17.59.27:290][570]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemoD96F28FC4C31755CC0348FB75B025F4C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-17.59.27:885][570]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltDataB2B372C34989E88876A9069350D213A2.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-17.59.27:949][570]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-17.59.27:949][570]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-17.59.27:949][570]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-17.59.28:370][615]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.01-17.59.28:435][615]Candidate modules for hot reload:
+[2022.04.01-17.59.28:435][615]  FillTheBlanks
+[2022.04.01-17.59.28:436][615]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,9920 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.01-17.59.28:440][615]Warning: Starting HotReload took  0.1s.
+[2022.04.01-17.59.33:939][170]CompilerResultsLog: New page: Compilation - 1 Apr 2022, 19:59:33
+[2022.04.01-17.59.33:939][170]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.01-17.59.33:939][170]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.01-17.59.33:939][170]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.01-17.59.33:939][170]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.04.01-17.59.33:939][170]CompilerResultsLog:   [1/4] TextManager.cpp
+[2022.04.01-17.59.33:939][170]CompilerResultsLog:   [2/4] UE4Editor-FillTheBlanks-9920.lib
+[2022.04.01-17.59.33:939][170]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-9920.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-9920.exp
+[2022.04.01-17.59.33:939][170]CompilerResultsLog:   [3/4] UE4Editor-FillTheBlanks-9920.dll
+[2022.04.01-17.59.33:939][170]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-9920.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-9920.suppressed.exp
+[2022.04.01-17.59.33:939][170]CompilerResultsLog:   [4/4] FillTheBlanksEditor.target
+[2022.04.01-17.59.33:939][170]CompilerResultsLog: Total time in Parallel executor: 4.28 seconds
+[2022.04.01-17.59.33:939][170]CompilerResultsLog: Total execution time: 5.22 seconds
+[2022.04.01-17.59.33:940][170]LogMainFrame: MainFrame: Module compiling took 5.570 seconds
+[2022.04.01-17.59.33:990][170]LogClass: Could not find existing class TextManager in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-17.59.33:990][170]LogClass: Could not find existing class TextManagerWidget in package /Script/FillTheBlanks for HotReload, assuming new class
+[2022.04.01-17.59.33:990][170]LogClass: Function Initialise is new.
+[2022.04.01-17.59.33:990][170]LogClass: Function PublicTick is new.
+[2022.04.01-17.59.33:998][170]Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2022.04.01-17.59.34:004][170]LogHotReload: Re-instancing TextManager after hot-reload.
+[2022.04.01-17.59.34:006][170]LogProperty: Warning: Serialized Class /Script/UMG.WidgetBlueprintGeneratedClass for a property of Class /Script/FillTheBlanks.TextManagerWidget. Reference will be nullptred.
+    Property = ObjectProperty /Script/FillTheBlanks.TextManager:textManagerWidget
+    Item = WidgetBlueprintGeneratedClass /Game/Blueprints/TextBlock/TextManagerWidgetBP.TextManagerWidgetBP_C
+[2022.04.01-17.59.34:086][170]LogHotReload: Re-instancing TextManagerWidget after hot-reload.
+[2022.04.01-17.59.34:159][170]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0002 seconds. Added 6 classes and 2 folders.
+[2022.04.01-17.59.34:159][170]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (FillTheBlanksGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+
+[2022.04.01-17.59.34:166][170]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.04.01-17.59.34:404][170]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3610 classes and 866 folders.
+[2022.04.01-17.59.34:404][170]Display: HotReload took  6.0s.
