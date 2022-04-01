@@ -1823,3 +1823,473 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.01-12.54.04:147][844]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP820DFC574AEE8580380DF2BB18A1EC14.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
 [2022.04.01-12.54.04:177][844]AssetCheck: New page: Asset Save: MainMenuBP
 [2022.04.01-12.54.04:177][844]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-13.18.57:921][891]LogEditorTransaction: Undo Resize Widget
+[2022.04.01-13.19.02:915][426]LogEditorTransaction: Undo Resize Widget
+[2022.04.01-13.19.08:560][ 39]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-13.19.08:607][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2022.04.01-13.19.08:708][ 39]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP29411D6142AD99B9B8311E9103659173.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-13.19.08:742][ 39]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-13.19.08:742][ 39]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-13.19.51:207][853]LogEditorTransaction: Undo Resize Widget
+[2022.04.01-13.19.55:598][332]LogEditorTransaction: Undo Resize Widget
+[2022.04.01-13.20.15:318][518]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-13.20.15:367][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2022.04.01-13.20.15:484][518]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP043FB4404FC640F0EE6C3B86E2415A67.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-13.20.15:525][518]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-13.20.15:525][518]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-13.20.47:617][676]LogEditorTransaction: Undo Edit Size To Content
+[2022.04.01-13.20.48:956][775]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-13.20.49:003][775]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.04.01-13.20.49:104][775]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPF78CF10D4F853F2A4AB5D794084CFF3F.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-13.20.49:144][775]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-13.20.49:144][775]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-13.21.00:354][975]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Images/MenuSystem/Images/Background.Background
+[2022.04.01-13.21.00:414][975]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TextureEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2022.04.01-13.21.59:700][967]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{773cb57b-5883-456f-ba6e-6889ff22dfa3}.
+[2022.04.01-13.21.59:700][967]LogAudioMixer: Resetting audio stream to device id 
+[2022.04.01-13.21.59:827][967]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-13.21.59:827][967]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-14.13.58:542][  6]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP6DBCFC254CF3386C219599B4D96B7764.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.13.58:569][  6]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.13.58:569][  6]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.14.00:284][106]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.14.00:596][106]LogUObjectHash: Compacting FUObjectHashTables data took   9.76ms
+[2022.04.01-14.14.29:441][809]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.14.29:546][809]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2022.04.01-14.14.29:679][809]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP5851D056476E5BFB4B20C2A1013B193A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.14.29:715][809]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.14.29:715][809]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.20.39:341][767]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.20.39:390][767]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2022.04.01-14.20.39:535][767]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP063FFD4D4F995055883F2AA9474DEE64.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.20.39:575][767]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.20.39:575][767]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.21.37:771][185]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.21.37:821][185]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2022.04.01-14.21.37:934][185]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP01B606054DE06FD137DDBE8FB55FB5F0.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.21.37:969][185]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.21.37:969][185]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.21.56:061][233]LogSlate: Window 'Details' being destroyed
+[2022.04.01-14.22.07:396][887]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.22.07:448][887]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2022.04.01-14.22.07:580][887]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP91A6F3764E611F3CD95732B6D8509056.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.22.07:636][887]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.22.07:636][887]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.23.07:542][394]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.23.07:592][394]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2022.04.01-14.23.07:735][394]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP1BE281F745A3F45DDBE8DEAC9EC99215.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.23.07:773][394]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.23.07:773][394]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.23.18:989][ 42]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-14.23.59:953][366]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2022.04.01-14.23.59:953][366]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.039
+[2022.04.01-14.23.59:955][366]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Menu/MainMenuBP] ([2] browsable assets)...
+[2022.04.01-14.23.59:955][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Menu/MainMenuBP]
+[2022.04.01-14.23.59:965][366]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP_Auto15D58E58F46D92341FD6971946479F3CC.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/Autosaves/Game/Blueprints/Menu/MainMenuBP_Auto1.uasset'
+[2022.04.01-14.23.59:966][366]LogFileHelpers: Auto-saving content packages took 0.012
+[2022.04.01-14.24.17:953][408]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-14.24.27:539][960]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-14.24.30:988][160]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.24.31:022][160]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2022.04.01-14.24.31:154][160]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP90FEB15442D1DE29D968B6935E8B0136.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.24.31:206][160]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.24.31:206][160]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.34.00:237][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   8.37ms
+[2022.04.01-14.34.00:238][ 89]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.046
+[2022.04.01-14.34.00:239][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Menu/MainMenuBP] ([2] browsable assets)...
+[2022.04.01-14.34.00:239][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Menu/MainMenuBP]
+[2022.04.01-14.34.00:254][ 89]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP_Auto2012568DC49A1103B1CE048BA88198DFA.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/Autosaves/Game/Blueprints/Menu/MainMenuBP_Auto2.uasset'
+[2022.04.01-14.34.00:255][ 89]LogFileHelpers: Auto-saving content packages took 0.016
+[2022.04.01-14.45.16:859][573]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.01-14.53.28:075][796]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.53.28:113][796]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.04.01-14.53.28:212][796]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPD02483C34247E1BF833A8DB3F41163EE.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.53.28:251][796]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.53.28:251][796]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.54.38:879][916]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.54.38:925][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.04.01-14.54.39:018][916]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPA4FE324649F57C2DE18763876FAF47B4.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.54.39:076][916]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.54.39:076][916]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.57.14:453][188]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-14.57.14:497][188]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2022.04.01-14.57.14:603][188]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPBFFC78FA40C14B77E84A79997C4B9074.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-14.57.14:646][188]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-14.57.14:646][188]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-14.57.21:123][550]LogSlate: Took 0.006882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.04.01-14.58.52:559][822]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2022.04.01-14.58.52:560][822]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.038
+[2022.04.01-14.58.52:561][822]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Menu/MainMenuBP] ([2] browsable assets)...
+[2022.04.01-14.58.52:561][822]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Menu/MainMenuBP]
+[2022.04.01-14.58.52:568][822]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP_Auto3E5BDE0DD49487D94F7DA80B935C4CB3C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/Autosaves/Game/Blueprints/Menu/MainMenuBP_Auto3.uasset'
+[2022.04.01-14.58.52:569][822]LogFileHelpers: Auto-saving content packages took 0.008
+[2022.04.01-15.01.25:096][916]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.01.25:129][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.04.01-15.01.25:224][916]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPD1DCD3FA44C1FFB0F55270B1E7B3826D.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.01.25:262][916]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.01.25:262][916]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.03.02:408][642]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.03.02:453][642]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2022.04.01-15.03.02:556][642]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPA50E12F14B0B1EAE74394CB902AF930C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.03.02:594][642]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.03.02:594][642]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.03.35:371][588]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.03.35:414][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.04.01-15.03.35:501][588]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPB5B8B1F742D6A5BEF123C3A3756A01D5.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.03.35:551][588]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.03.35:552][588]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.04.34:129][968]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.04.34:183][968]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2022.04.01-15.04.34:424][968]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPDEDBDB214C45E423765EB78ADAB80C9C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.04.34:489][968]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.04.34:489][968]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.08.52:880][340]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.04.01-15.08.52:882][340]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.037
+[2022.04.01-15.08.52:882][340]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Menu/MainMenuBP] ([2] browsable assets)...
+[2022.04.01-15.08.52:882][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Menu/MainMenuBP]
+[2022.04.01-15.08.52:889][340]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP_Auto436BA12A549879B161E867DAAD6BFB7E1.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/Autosaves/Game/Blueprints/Menu/MainMenuBP_Auto4.uasset'
+[2022.04.01-15.08.52:898][340]LogFileHelpers: Auto-saving content packages took 0.016
+[2022.04.01-15.10.07:133][738]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.10.42:261][772]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.10.52:208][329]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.11.23:783][122]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.11.29:789][450]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.11.39:029][982]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.13.09:842][284]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.13.09:883][284]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2022.04.01-15.13.10:009][284]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP4907F53D4B0B639EC76709AF485B0D2A.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.13.10:084][284]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.13.10:084][284]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.14.07:727][631]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.14.07:775][631]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2022.04.01-15.14.07:920][631]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP3717553947CF2C6642FF30BB23F33617.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.14.07:974][631]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.14.07:974][631]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.20.15:317][696]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2022.04.01-15.20.15:319][696]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FillInTheBlanksDemo' took 0.062
+[2022.04.01-15.20.15:320][696]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Menu/MainMenuBP] ([2] browsable assets)...
+[2022.04.01-15.20.15:320][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Menu/MainMenuBP]
+[2022.04.01-15.20.15:334][696]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP_Auto538E009FD4B8AEB0C8DFE4DAA5394E6EB.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/Autosaves/Game/Blueprints/Menu/MainMenuBP_Auto5.uasset'
+[2022.04.01-15.20.15:335][696]LogFileHelpers: Auto-saving content packages took 0.016
+[2022.04.01-15.21.08:113][721]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.21.08:164][721]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2022.04.01-15.21.08:338][721]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPFFA39D6947F4E30E20B5B8A020E94250.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.21.08:403][721]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.21.08:403][721]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.25.49:122][937]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.25.49:180][937]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2022.04.01-15.25.49:401][937]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP2AFE13504E9027BE0F89B3AFD2232FBF.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.25.49:450][937]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.25.49:450][937]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.27.27:276][582]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.27.27:332][582]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2022.04.01-15.27.27:477][582]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPE1D5D62345B2D93C00A7F894BCC52520.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.27.27:517][582]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.27.27:518][582]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.27.57:230][251]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.27.57:285][251]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.04.01-15.27.57:427][251]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPBF2BB64A481A82B56E06078B4D3A8B81.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.27.57:485][251]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.27.57:485][251]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.28.26:298][925]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.28.33:047][290]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.28.44:600][941]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.28.52:973][372]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.29.02:091][870]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.29.02:178][870]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2022.04.01-15.29.02:350][870]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP06B96AA4482232904B5974BBACAC3ADA.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.29.02:386][870]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.29.02:387][870]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.29.12:884][444]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.29.14:042][509]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.29.14:093][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.04.01-15.29.14:263][509]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP4F7C4CC44FD8B57CC00A81B65C2C0D31.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.29.14:303][509]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.29.14:303][509]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.29.32:346][504]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.01-15.29.33:833][585]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPBDF2AF8043F2AD051EB2E999119D32C6.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.29.33:869][585]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.29.33:869][585]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.29.52:989][679]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.29.53:045][679]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2022.04.01-15.29.53:195][679]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP98945F3D4823DCC1DFA942AB8A63E30E.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.29.53:243][679]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.29.53:243][679]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.30.31:630][810]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.30.31:692][810]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.04.01-15.30.31:812][810]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP2A83C09A4F60F79697CE97A637762D8F.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.30.31:849][810]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.30.31:849][810]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.30.34:798][951]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Specified Color entirely.
+[2022.04.01-15.31.03:988][545]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-15.31.04:061][545]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2022.04.01-15.31.04:181][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.04.01-15.31.04:265][545]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemoACDE59824725F68A36CD8E9F00A9600C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-15.31.04:283][545]LogFileHelpers: Saving map 'FillInTheBlanksDemo' took 0.137
+[2022.04.01-15.31.04:319][545]AssetCheck: New page: Asset Save: FillInTheBlanksDemo
+[2022.04.01-15.31.04:319][545]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-15.31.10:870][889]LogSlate: Took 0.003975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.04.01-15.31.14:730][ 86]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-15.31.14:784][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.04.01-15.31.14:907][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.04.01-15.31.14:929][ 86]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo8BEE93D44843BF0886F8B3A01259774E.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-15.31.14:944][ 86]LogFileHelpers: Saving map 'FillInTheBlanksDemo' took 0.071
+[2022.04.01-15.31.14:982][ 86]AssetCheck: New page: Asset Save: FillInTheBlanksDemo
+[2022.04.01-15.31.14:982][ 86]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-15.31.19:451][324]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-15.31.19:463][324]LogBlueprint: Error: [AssetLog] E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Content\Maps\FillInTheBlanksDemo.umap: [Compiler] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2022.04.01-15.31.19:518][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2022.04.01-15.31.21:065][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.04.01-15.31.21:088][395]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo3B0402CD4068A08E2505BCB09A12D041.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-15.31.23:161][395]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData3DA4807F4C0CF737BA04629FA330C4AF.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-15.31.23:209][395]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-15.31.23:209][395]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-15.31.23:209][395]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-15.32.34:996][647]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-15.32.35:020][647]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.04.01-15.32.35:020][647]LogPlayLevel: [PlayLevel] Compiling FillInTheBlanksDemo before play...
+[2022.04.01-15.32.35:022][647]LogBlueprint: Error: [AssetLog] E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Content\Maps\FillInTheBlanksDemo.umap: [Compiler] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2022.04.01-15.32.35:089][647]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2022.04.01-15.32.35:093][647]LogPlayLevel: PlayLevel: Blueprint regeneration took 72 ms (1 blueprints)
+[2022.04.01-15.32.35:093][647]BlueprintLog: Warning: Blueprint failed to compile:  FillInTheBlanksDemo
+[2022.04.01-15.32.35:094][647]LogCustomDialog: Dialog displayed:
+[2022.04.01-15.32.40:269][647]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2022.04.01-15.32.43:109][805]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-15.32.43:110][805]LogBlueprint: Error: [AssetLog] E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Content\Maps\FillInTheBlanksDemo.umap: [Compiler] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2022.04.01-15.32.43:163][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.04.01-15.32.58:546][635]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-15.32.58:598][635]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2022.04.01-15.32.58:709][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.04.01-15.32.58:732][635]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo352C043644B88C47AAA83B8D8C32ACCD.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-15.32.58:744][635]LogFileHelpers: Saving map 'FillInTheBlanksDemo' took 0.066
+[2022.04.01-15.32.58:779][635]AssetCheck: New page: Asset Save: FillInTheBlanksDemo
+[2022.04.01-15.32.58:779][635]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-15.33.00:379][719]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-15.33.00:440][719]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2022.04.01-15.33.00:577][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.04.01-15.33.00:618][719]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo24FF236A459361663F8FEE970F258E46.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-15.33.00:630][719]LogFileHelpers: Saving map 'FillInTheBlanksDemo' took 0.091
+[2022.04.01-15.33.00:698][719]AssetCheck: New page: Asset Save: FillInTheBlanksDemo
+[2022.04.01-15.33.00:698][719]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-15.33.01:558][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.04.01-15.33.01:586][754]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo1CC738AA44D0A429A768AAA1A2A7BB7C.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-15.33.02:340][754]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData65F6A9084776F50C3E76D897586EAF21.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-15.33.02:402][754]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-15.33.02:402][754]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-15.33.02:402][754]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-15.33.02:871][781]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-15.33.02:881][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-15.33.02:883][781]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 17:33:02)
+[2022.04.01-15.33.02:884][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.33.02:910][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025629s)
+[2022.04.01-15.33.02:912][781]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-15.33.02:913][781]LogPlayLevel: PIE: World Init took: (0.003058s)
+[2022.04.01-15.33.02:913][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.029419s)
+[2022.04.01-15.33.02:949][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.04.01-15.33.02:953][781]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.04.01-15.33.02:953][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-15.33.02:953][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-15.33.02:953][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-15.33.02:953][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-15.33.02:953][781]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-15.33.02:953][781]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-15.33.02:953][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-15.33.02:953][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-15.33.02:954][781]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-15.33.02:954][781]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-15.33.02:965][781]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-15.33.02:965][781]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-15.33.03:046][781]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-15.33.03:047][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-15.33.03:047][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-15.33.03:047][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-15.33.03:048][781]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-15.33.03:048][781]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-15.33.03:048][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-15.33.03:080][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-15.33.03:080][781]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-15.33.03:080][781]LogInit: FAudioDevice initialized.
+[2022.04.01-15.33.03:080][781]LogAudio: Display: Audio Device (ID: 14) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-15.33.03:105][781]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-15.33.03:120][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-16.33.03
+[2022.04.01-15.33.03:122][781]LogWorld: Bringing up level for play took: 0.016085
+[2022.04.01-15.33.03:123][781]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.04.01-15.33.03:144][781]PIE: Server logged in
+[2022.04.01-15.33.03:145][781]PIE: Play in editor total start time 0.267 seconds.
+[2022.04.01-15.33.06:272][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.33.06:272][959]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.33.06:273][959]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-15.33.06:274][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.33.06:288][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-15.33.06:295][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.33.06:332][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.33.06:335][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.33.06:336][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.33.06:366][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.04.01-15.33.06:406][960]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.04.01-15.33.19:675][703]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.33.19:723][703]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2022.04.01-15.33.19:850][703]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP8FC42FAF41D01115B703DE8B4D9804C9.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.33.19:888][703]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.33.19:888][703]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.36.58:075][375]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.36.58:139][375]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2022.04.01-15.36.58:235][375]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP2AFEDA144CC607FCB5F0E487E3E1FFE4.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.36.58:274][375]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.36.58:275][375]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.37.13:365][191]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-15.37.13:424][191]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2022.04.01-15.37.13:518][191]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP94979D1840AB1D021E1CB793B4BD6548.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-15.37.13:553][191]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-15.37.13:553][191]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-15.37.15:400][286]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-15.37.15:407][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-15.37.15:407][286]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 17:37:15)
+[2022.04.01-15.37.15:407][286]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.37.15:420][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012680s)
+[2022.04.01-15.37.15:422][286]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-15.37.15:422][286]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2022.04.01-15.37.15:422][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.014597s)
+[2022.04.01-15.37.15:457][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.04.01-15.37.15:459][286]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.04.01-15.37.15:459][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-15.37.15:459][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-15.37.15:459][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-15.37.15:459][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-15.37.15:459][286]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-15.37.15:459][286]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-15.37.15:459][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-15.37.15:459][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-15.37.15:460][286]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-15.37.15:460][286]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-15.37.15:469][286]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-15.37.15:469][286]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-15.37.15:529][286]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-15.37.15:529][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-15.37.15:529][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-15.37.15:530][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-15.37.15:530][286]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-15.37.15:530][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-15.37.15:530][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-15.37.15:570][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-15.37.15:570][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-15.37.15:570][286]LogInit: FAudioDevice initialized.
+[2022.04.01-15.37.15:570][286]LogAudio: Display: Audio Device (ID: 15) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-15.37.15:586][286]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-15.37.15:589][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-16.37.15
+[2022.04.01-15.37.15:590][286]LogWorld: Bringing up level for play took: 0.002895
+[2022.04.01-15.37.15:590][286]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.04.01-15.37.15:594][286]PIE: Server logged in
+[2022.04.01-15.37.15:597][286]PIE: Play in editor total start time 0.191 seconds.
+[2022.04.01-15.37.19:045][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.37.19:045][484]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.37.19:046][484]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-15.37.19:046][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.37.19:056][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-15.37.19:060][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.37.19:089][484]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.01-15.37.19:089][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.37.19:091][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.37.19:110][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.37.19:115][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2022.04.01-15.37.19:143][485]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.04.01-15.37.19:926][525]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-15.37.19:932][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-15.37.19:932][525]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 17:37:19)
+[2022.04.01-15.37.19:932][525]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.37.19:943][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010809s)
+[2022.04.01-15.37.19:944][525]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-15.37.19:946][525]LogPlayLevel: PIE: World Init took: (0.002571s)
+[2022.04.01-15.37.19:946][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.013563s)
+[2022.04.01-15.37.19:976][525]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.04.01-15.37.19:977][525]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.04.01-15.37.19:977][525]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-15.37.19:977][525]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-15.37.19:977][525]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-15.37.19:977][525]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-15.37.19:977][525]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-15.37.19:977][525]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-15.37.19:978][525]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-15.37.19:978][525]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-15.37.19:978][525]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-15.37.19:978][525]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-15.37.19:987][525]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-15.37.19:987][525]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-15.37.20:040][525]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-15.37.20:041][525]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-15.37.20:041][525]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-15.37.20:041][525]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-15.37.20:041][525]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-15.37.20:041][525]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-15.37.20:041][525]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-15.37.20:063][525]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-15.37.20:063][525]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-15.37.20:063][525]LogInit: FAudioDevice initialized.
+[2022.04.01-15.37.20:063][525]LogAudio: Display: Audio Device (ID: 16) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-15.37.20:073][525]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-15.37.20:075][525]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-16.37.20
+[2022.04.01-15.37.20:075][525]LogWorld: Bringing up level for play took: 0.001327
+[2022.04.01-15.37.20:075][525]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.04.01-15.37.20:079][525]PIE: Server logged in
+[2022.04.01-15.37.20:080][525]PIE: Play in editor total start time 0.149 seconds.
+[2022.04.01-15.37.20:550][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.37.20:553][550]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.37.20:574][550]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-15.37.20:574][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.37.20:585][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-15.37.20:590][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.37.20:621][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.37.20:622][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.37.20:623][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.37.20:654][550]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2022.04.01-15.37.20:726][551]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.04.01-15.37.21:643][600]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.01-15.37.21:651][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.01-15.37.21:651][600]PIE: New page: PIE session: FillInTheBlanksDemo (1 Apr 2022, 17:37:21)
+[2022.04.01-15.37.21:651][600]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.37.21:664][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013012s)
+[2022.04.01-15.37.21:665][600]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.01-15.37.21:666][600]LogPlayLevel: PIE: World Init took: (0.001709s)
+[2022.04.01-15.37.21:666][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.014882s)
+[2022.04.01-15.37.21:697][600]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2022.04.01-15.37.21:699][600]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.04.01-15.37.21:699][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.01-15.37.21:699][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.01-15.37.21:699][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.01-15.37.21:699][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.01-15.37.21:699][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.01-15.37.21:699][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.01-15.37.21:699][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.01-15.37.21:699][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.01-15.37.21:700][600]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.01-15.37.21:700][600]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.01-15.37.21:709][600]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.01-15.37.21:709][600]LogAudioMixer: Display: 1: FrontRight
+[2022.04.01-15.37.21:762][600]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.01-15.37.21:762][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.01-15.37.21:762][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.01-15.37.21:762][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.01-15.37.21:762][600]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.01-15.37.21:762][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.01-15.37.21:762][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.01-15.37.21:783][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.01-15.37.21:783][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.01-15.37.21:783][600]LogInit: FAudioDevice initialized.
+[2022.04.01-15.37.21:783][600]LogAudio: Display: Audio Device (ID: 17) registered with world 'FillInTheBlanksDemo'.
+[2022.04.01-15.37.21:796][600]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.01-15.37.21:798][600]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.01-16.37.21
+[2022.04.01-15.37.21:798][600]LogWorld: Bringing up level for play took: 0.001431
+[2022.04.01-15.37.21:798][600]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.04.01-15.37.21:801][600]PIE: Server logged in
+[2022.04.01-15.37.21:802][600]PIE: Play in editor total start time 0.152 seconds.
+[2022.04.01-15.37.25:355][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.37.25:356][810]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.01-15.37.25:356][810]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.01-15.37.25:357][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.37.25:370][810]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.01-15.37.25:375][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.01-15.37.25:415][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.01-15.37.25:415][810]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.37.25:417][810]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.01-15.37.25:441][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.04.01-15.37.25:511][811]LogPlayLevel: Display: Destroying online subsystem :Context_31
