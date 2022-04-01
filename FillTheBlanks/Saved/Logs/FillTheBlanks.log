@@ -1792,3 +1792,34 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.01-12.47.41:321][248]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
 [2022.04.01-12.47.42:688][383]LogContentBrowser: Attempting asset rename: NewFolder -> Menu
 [2022.04.01-12.47.42:688][383]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.01-12.53.02:157][532]BlueprintLog: New page: Compile FillInTheBlanksDemo
+[2022.04.01-12.53.02:199][532]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.04.01-12.53.02:227][532]LogSlate: Took 0.006627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.04.01-12.53.03:708][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.04.01-12.53.03:727][667]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemoDFE2A6374692A81605BFD899FF3009C1.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap'
+[2022.04.01-12.53.04:426][667]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FillInTheBlanksDemo_BuiltData6E166F784E8280FAB8C995BB1B6D4DC8.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset'
+[2022.04.01-12.53.04:467][667]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.01-12.53.04:467][667]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FillInTheBlanksDemo_BuiltData.FillInTheBlanksDemo_BuiltData
+[2022.04.01-12.53.04:467][667]LogContentValidation: Display: Validating World /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo
+[2022.04.01-12.53.10:472][277]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.04.01-12.53.10:489][277]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.04.01-12.53.15:289][851]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> MainMenuBP
+[2022.04.01-12.53.15:310][851]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.04.01-12.53.15:744][897]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-12.53.22:085][264]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-12.53.22:144][264]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2022.04.01-12.53.24:411][492]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBPA71A34FA4B378E9BEB39ACB57A50ADDE.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-12.53.24:434][492]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-12.53.24:434][492]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-12.53.27:604][804]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-12.53.27:657][804]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2022.04.01-12.53.54:655][835]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-12.53.54:686][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.04.01-12.53.54:783][835]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP5374F45B4DD9F803D6CEAA930DD923A2.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-12.53.54:893][835]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-12.53.54:893][835]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
+[2022.04.01-12.54.03:991][844]BlueprintLog: New page: Compile MainMenuBP
+[2022.04.01-12.54.04:039][844]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2022.04.01-12.54.04:147][844]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/MainMenuBP820DFC574AEE8580380DF2BB18A1EC14.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/Menu/MainMenuBP.uasset'
+[2022.04.01-12.54.04:177][844]AssetCheck: New page: Asset Save: MainMenuBP
+[2022.04.01-12.54.04:177][844]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Menu/MainMenuBP.MainMenuBP
