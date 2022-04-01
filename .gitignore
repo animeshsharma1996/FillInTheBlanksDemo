@@ -73,12 +73,8 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-FillTheBlanks/Intermediate/AssetRegistryCache/
-
-FillTheBlanks/Intermediate/Build/BuildRules/
-
-FillTheBlanks/Intermediate/Build/
-
 FillTheBlanks/Intermediate/
 
-FillTheBlanks/Binaries/Win64/
+FillTheBlanks/Binaries/
+
+FillTheBlanks/Saved
