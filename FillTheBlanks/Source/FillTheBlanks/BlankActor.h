@@ -16,6 +16,9 @@ public:
 		void Initialise(int32 blankIndex, FString blankString);
 	UFUNCTION()
 		FString GetBlankWordString() { return blankWordString; }
+	UFUNCTION(BlueprintCallable)
+		void TriggerHighlight();
+
 
 protected:
 	UPROPERTY()

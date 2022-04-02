@@ -5,13 +5,6 @@
 #include "Components/SphereComponent.h"
 #include "Components/TextRenderComponent.h"
 
-AFillTheBlanksProjectile::AFillTheBlanksProjectile() 
-{
-	// Use a sphere as a simple collision representation
-	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
-	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
-}
-
 void AFillTheBlanksProjectile::Initialise()
 {
 	textRenderBlock = FindComponentByClass<UTextRenderComponent>();

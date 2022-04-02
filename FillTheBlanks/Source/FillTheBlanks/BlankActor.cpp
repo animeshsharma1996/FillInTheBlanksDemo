@@ -10,4 +10,9 @@ void ABlankActor::Initialise(int32 blankIndex, FString blankString)
 	blankWordString = blankString;
 }
 
+void ABlankActor::TriggerHighlight()
+{
+
+}
+
 

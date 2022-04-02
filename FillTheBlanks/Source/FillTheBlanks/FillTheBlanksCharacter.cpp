@@ -158,7 +158,7 @@ void AFillTheBlanksCharacter::OnFire()
 				{
 					textBlock = outHit.GetActor();
 					textBlock->AttachToComponent(FP_MuzzleLocation, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
-					textBlock->SetActorLocation(FP_MuzzleLocation->GetComponentLocation() + FirstPersonCameraComponent->GetForwardVector()*30) ;
+					textBlock->SetActorLocation(FP_MuzzleLocation->GetComponentLocation() + FirstPersonCameraComponent->GetUpVector()*10) ;
 					textBlock->SetActorScale3D(textBlock->GetActorScale()/8);
 					isTextAttached = true;
 					PlaySoundAnimation();
@@ -188,8 +188,6 @@ void AFillTheBlanksCharacter::OnFire()
 					textBlock->DetachRootComponentFromParent(true);
 					textBlockActor->ResetTransform();
 				}
-
-				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, "Huh");
 				
 				isTextAttached = false;
 				PlaySoundAnimation();
@@ -233,7 +231,7 @@ void AFillTheBlanksCharacter::HighlightBlankObject()
 		{
 			AActor* hitActor = outHit.GetActor();
 			ABlankActor* blankHitActor = Cast<ABlankActor>(hitActor);
-			AFillTheBlanksProjectile* textBlockActor = Cast<AFillTheBlanksProjectile>(textBlock);
+			blankHitActor->TriggerHighlight();
 		}
 	}
 }

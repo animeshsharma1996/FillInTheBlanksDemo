@@ -14,13 +14,7 @@ class AFillTheBlanksProjectile : public AActor
 {
 	GENERATED_BODY()
 
-	/** Sphere collision component */
-	UPROPERTY(VisibleDefaultsOnly, Category=Projectile)
-		USphereComponent* CollisionComp;
-
 public:
-	AFillTheBlanksProjectile();
-
 	UPROPERTY()
 		class UTextRenderComponent* textRenderBlock;
 
@@ -32,9 +26,6 @@ public:
 		FString GetBlankTextString();
 	UFUNCTION()
 		void ResetTransform();
-
-	/** Returns CollisionComp subobject **/
-	USphereComponent* GetCollisionComp() const { return CollisionComp; }
 
 	UTextRenderComponent* GetTextRenderBlock() { return ((textRenderBlock != nullptr) ? textRenderBlock : nullptr); }
 
