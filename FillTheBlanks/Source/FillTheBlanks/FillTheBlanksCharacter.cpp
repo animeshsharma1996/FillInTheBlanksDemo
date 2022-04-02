@@ -24,6 +24,8 @@ AFillTheBlanksCharacter::AFillTheBlanksCharacter()
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 	isTextAttached = false;
+	textBlock = nullptr;
+	World = GetWorld();
 
 	// set our turn rates for input
 	BaseTurnRate = 45.f;
@@ -82,9 +84,6 @@ AFillTheBlanksCharacter::AFillTheBlanksCharacter()
 	VR_MuzzleLocation->SetupAttachment(VR_Gun);
 	VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
 	VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
-
-	// Uncomment the following line to turn motion controllers on by default:
-	//bUsingMotionControllers = true;
 }
 
 void AFillTheBlanksCharacter::BeginPlay()
@@ -140,19 +139,16 @@ void AFillTheBlanksCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AFillTheBlanksCharacter::OnFire()
 {
-	AActor* textBlock;
+	float hitDistance = 10000;
+	FRotator spawnRotation = GetControlRotation();
+	const FVector startLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + spawnRotation.RotateVector(GunOffset);
+	const FVector endLocation = startLocation + FirstPersonCameraComponent->GetForwardVector() * hitDistance;
 
 	if (!isTextAttached)
 	{
-		float hitDistance = 5000;
 		// try and attach the text block to the gun muzzle
 		if (ProjectileClass != nullptr)
 		{
-			UWorld* const World = GetWorld();
-
-			FRotator spawnRotation = GetControlRotation();
-			const FVector startLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + spawnRotation.RotateVector(GunOffset);
-			const FVector endLocation = startLocation + FirstPersonCameraComponent->GetForwardVector() * hitDistance;
 			if (World != nullptr)
 			{
 				FHitResult outHit;
@@ -162,33 +158,83 @@ void AFillTheBlanksCharacter::OnFire()
 				{
 					textBlock = outHit.GetActor();
 					textBlock->AttachToComponent(FP_MuzzleLocation, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
-					textBlock->SetActorLocation(FP_MuzzleLocation->GetComponentLocation() + FirstPersonCameraComponent->GetForwardVector()*100) ;
-					textBlock->SetActorScale3D(textBlock->GetActorScale()/5);
+					textBlock->SetActorLocation(FP_MuzzleLocation->GetComponentLocation() + FirstPersonCameraComponent->GetForwardVector()*30) ;
+					textBlock->SetActorScale3D(textBlock->GetActorScale()/8);
 					isTextAttached = true;
+					PlaySoundAnimation();
 				}
-			}
-		}
-
-		// try and play the sound if specified
-		if (FireSound != nullptr)
-		{
-			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-		}
-
-		// try and play a firing animation if specified
-		if (FireAnimation != nullptr)
-		{
-			// Get the animation object for the arms mesh
-			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-			if (AnimInstance != nullptr)
-			{
-				AnimInstance->Montage_Play(FireAnimation, 1.f);
 			}
 		}
 	}
 	else
 	{
+		if (World != nullptr && textBlock != nullptr)
+		{
+			FHitResult outHit;
+			bool actorHit = World->LineTraceSingleByChannel(outHit, startLocation, endLocation, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
+			if (actorHit && outHit.GetActor()->ActorHasTag("fillable"))
+			{
+				AActor* hitActor = outHit.GetActor();
+				ABlankActor* blankHitActor = Cast<ABlankActor>(hitActor);
+				AFillTheBlanksProjectile* textBlockActor = Cast<AFillTheBlanksProjectile>(textBlock);
 
+				//If the blank word is correct
+				if (blankHitActor->GetBlankWordString() == textBlockActor->GetBlankTextString())
+				{
+					//Forward the arrow to the next blank word
+				}
+				else
+				{
+					textBlock->DetachRootComponentFromParent(true);
+					textBlockActor->ResetTransform();
+				}
+
+				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, "Huh");
+				
+				isTextAttached = false;
+				PlaySoundAnimation();
+			}
+		}
+	}
+}
+
+void AFillTheBlanksCharacter::PlaySoundAnimation()
+{
+	// try and play the sound if specified
+	if (FireSound != nullptr)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	}
+
+	// try and play a firing animation if specified
+	if (FireAnimation != nullptr)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		if (AnimInstance != nullptr)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
+	}
+}
+
+void AFillTheBlanksCharacter::HighlightBlankObject()
+{
+	float hitDistance = 10000;
+	FRotator spawnRotation = GetControlRotation();
+	const FVector startLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + spawnRotation.RotateVector(GunOffset);
+	const FVector endLocation = startLocation + FirstPersonCameraComponent->GetForwardVector() * hitDistance;
+
+	if (World != nullptr)
+	{
+		FHitResult outHit;
+		bool actorHit = World->LineTraceSingleByChannel(outHit, startLocation, endLocation, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
+		if (actorHit && outHit.GetActor()->ActorHasTag("fillable"))
+		{
+			AActor* hitActor = outHit.GetActor();
+			ABlankActor* blankHitActor = Cast<ABlankActor>(hitActor);
+			AFillTheBlanksProjectile* textBlockActor = Cast<AFillTheBlanksProjectile>(textBlock);
+		}
 	}
 }
 

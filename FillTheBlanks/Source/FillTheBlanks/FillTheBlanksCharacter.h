@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "BlankActor.h"
 #include "FillTheBlanksCharacter.generated.h"
 
 class UInputComponent;
@@ -72,7 +73,10 @@ public:
 
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
-	TSubclassOf<class AFillTheBlanksProjectile> ProjectileClass;
+	TSubclassOf<class AFillTheBlanksProjectile> ProjectileClass;	
+	
+	UPROPERTY(EditDefaultsOnly, Category=Projectile)
+	TSubclassOf<class ABlankActor> blankActorClass;
 
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
@@ -90,6 +94,10 @@ protected:
 	
 	/** Fires a projectile. */
 	void OnFire();
+
+	void PlaySoundAnimation();
+
+	void HighlightBlankObject();
 
 	/** Resets HMD orientation and position in VR. */
 	void OnResetVR();
@@ -120,7 +128,10 @@ protected:
 	// End of APawn interface
 	UPROPERTY()
 		bool isTextAttached;
-
+	UPROPERTY()
+		AActor* textBlock;
+	UPROPERTY()
+		UWorld* World;
 public:
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }

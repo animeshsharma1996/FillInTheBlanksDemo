@@ -22,8 +22,10 @@ public:
 
 UPROPERTY()
 	class UWidgetComponent* textManagerWidgetComponent;
-UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Demo")
+UPROPERTY()
 	TArray<UArrowComponent*> arrowPositions;
+//UPROPERTY()
+	//class UText3DComponent* paragraphText;
 
 protected:
 	// Called when the game starts or when spawned

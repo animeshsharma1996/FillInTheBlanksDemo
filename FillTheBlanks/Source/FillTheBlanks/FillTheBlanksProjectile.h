@@ -16,11 +16,7 @@ class AFillTheBlanksProjectile : public AActor
 
 	/** Sphere collision component */
 	UPROPERTY(VisibleDefaultsOnly, Category=Projectile)
-	USphereComponent* CollisionComp;
-
-	/** Projectile movement component */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
-	UProjectileMovementComponent* ProjectileMovement;
+		USphereComponent* CollisionComp;
 
 public:
 	AFillTheBlanksProjectile();
@@ -32,11 +28,18 @@ public:
 		void Initialise();
 	UFUNCTION()
 		void SetTextRenderBlocks(FText displayText);
+	UFUNCTION()
+		FString GetBlankTextString();
+	UFUNCTION()
+		void ResetTransform();
 
 	/** Returns CollisionComp subobject **/
 	USphereComponent* GetCollisionComp() const { return CollisionComp; }
-	/** Returns ProjectileMovement subobject **/
-	UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
+
 	UTextRenderComponent* GetTextRenderBlock() { return ((textRenderBlock != nullptr) ? textRenderBlock : nullptr); }
+
+private :
+	UPROPERTY()
+		FTransform originalTransform;
 };
 

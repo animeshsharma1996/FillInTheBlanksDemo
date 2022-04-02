@@ -9,18 +9,14 @@ AFillTheBlanksProjectile::AFillTheBlanksProjectile()
 {
 	// Use a sphere as a simple collision representation
 	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
-	CollisionComp->InitSphereRadius(5.0f);
 	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
-
-	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, textRenderBlock->Text.ToString());
 }
 
 void AFillTheBlanksProjectile::Initialise()
 {
 	textRenderBlock = FindComponentByClass<UTextRenderComponent>();
+	originalTransform = this->GetActorTransform();
 }
-
-
 
 void AFillTheBlanksProjectile::SetTextRenderBlocks(FText displayText)
 {
@@ -28,4 +24,21 @@ void AFillTheBlanksProjectile::SetTextRenderBlocks(FText displayText)
 	{
 		textRenderBlock->SetText(displayText);
 	}
+}
+
+FString AFillTheBlanksProjectile::GetBlankTextString()
+{
+	FString blankString = "";
+
+	if (textRenderBlock != nullptr)
+	{
+		blankString = textRenderBlock->Text.ToString();
+	}
+
+	return blankString;
+}
+
+void AFillTheBlanksProjectile::ResetTransform()
+{
+	SetActorTransform(originalTransform);
 }

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/ArrowComponent.h"
+#include "BlankActor.h"
 #include "TextManagerWidget.generated.h"
 
 /**
@@ -21,9 +22,13 @@ public :
 	UFUNCTION(BlueprintCallable)
 		void GenerateBlanksInParagraph();
 	UFUNCTION(BlueprintCallable)
-		void SpawnTextBoxes(int textBoxesIndex, FString blankWordRef);
+		void SpawnTextBox(int textBoxesIndex, FString blankWordRef);
+	UFUNCTION(BlueprintCallable)
+		void SpawnBlankActor(int blankWordIndex, FString blankWordRef, FVector spawnLocation);
 	UFUNCTION(BlueprintCallable)
 		void SetTextBoxPositions(TArray<UArrowComponent*> arrowPositions);
+	UFUNCTION(BlueprintCallable)
+		FString GenerateRequiredDashes(int32 charactersNumbers);
 	UFUNCTION()
 		void PublicTick(float DeltaTime);
 
@@ -32,7 +37,9 @@ public :
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DemoData")
 		int32 numOfBlanks;
 	UPROPERTY(EditDefaultsOnly, Category = "DemoData")
-		TSubclassOf<class AFillTheBlanksProjectile> projectileClass;
+		TSubclassOf<class AFillTheBlanksProjectile> projectileClass;	
+	UPROPERTY(EditDefaultsOnly, Category = "DemoData")
+		TSubclassOf<class ABlankActor> blankActorClass;
 
 private :
 	UPROPERTY()
