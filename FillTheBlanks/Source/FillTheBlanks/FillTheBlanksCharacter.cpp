@@ -145,7 +145,7 @@ void AFillTheBlanksCharacter::OnFire()
 	if (!isTextAttached)
 	{
 		float hitDistance = 5000;
-		// try and fire a projectile
+		// try and attach the text block to the gun muzzle
 		if (ProjectileClass != nullptr)
 		{
 			UWorld* const World = GetWorld();
