@@ -25,13 +25,18 @@ class AFillTheBlanksProjectile : public AActor
 public:
 	AFillTheBlanksProjectile();
 
-	/** called when projectile hits something */
+	UPROPERTY()
+		class UTextRenderComponent* textRenderBlock;
+
 	UFUNCTION()
-	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+		void Initialise();
+	UFUNCTION()
+		void SetTextRenderBlocks(FText displayText);
 
 	/** Returns CollisionComp subobject **/
 	USphereComponent* GetCollisionComp() const { return CollisionComp; }
 	/** Returns ProjectileMovement subobject **/
 	UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
+	UTextRenderComponent* GetTextRenderBlock() { return ((textRenderBlock != nullptr) ? textRenderBlock : nullptr); }
 };
 

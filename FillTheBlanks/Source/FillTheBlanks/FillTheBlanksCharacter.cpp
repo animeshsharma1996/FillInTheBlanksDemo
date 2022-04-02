@@ -126,8 +126,8 @@ void AFillTheBlanksCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AFillTheBlanksCharacter::OnResetVR);
 
 	// Bind movement events
-	PlayerInputComponent->BindAxis("MoveForward", this, &AFillTheBlanksCharacter::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AFillTheBlanksCharacter::MoveRight);
+	//PlayerInputComponent->BindAxis("MoveForward", this, &AFillTheBlanksCharacter::MoveForward);
+	//PlayerInputComponent->BindAxis("MoveRight", this, &AFillTheBlanksCharacter::MoveRight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
@@ -150,7 +150,7 @@ void AFillTheBlanksCharacter::OnFire()
 			{
 				const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
 				const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
-				World->SpawnActor<AFillTheBlanksProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+				//World->SpawnActor<AFillTheBlanksProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
 			}
 			else
 			{
@@ -163,7 +163,7 @@ void AFillTheBlanksCharacter::OnFire()
 				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 				// spawn the projectile at the muzzle
-				World->SpawnActor<AFillTheBlanksProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+				//World->SpawnActor<AFillTheBlanksProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 			}
 		}
 	}
