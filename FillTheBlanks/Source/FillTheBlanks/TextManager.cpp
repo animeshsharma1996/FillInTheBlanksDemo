@@ -4,6 +4,7 @@
 #include "TextManager.h"
 #include "Engine/Engine.h"
 #include "Components/TextBlock.h"
+#include "Components/ArrowComponent.h"
 #include "Components/WidgetComponent.h"
 
 // Sets default values
@@ -20,11 +21,14 @@ void ATextManager::BeginPlay()
 
 	textManagerWidgetComponent = FindComponentByClass<UWidgetComponent>();
 
+	GetComponents(arrowPositions);
+
 	if (textManagerWidgetComponent != nullptr)
 	{
 		textManagerWidget = Cast<UTextManagerWidget>(textManagerWidgetComponent->GetWidget());
 		if (textManagerWidget != nullptr)
 		{
+			textManagerWidget->SetTextBoxPositions(arrowPositions);
 			textManagerWidget->Initialise();
 		}
 	}

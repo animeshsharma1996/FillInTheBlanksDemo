@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Blueprint/UserWidget.h"
+#include "Components/ArrowComponent.h"
 #include "TextManagerWidget.h"
 #include "TextManager.generated.h"
 
@@ -19,8 +20,10 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Demo")
+UPROPERTY()
 	class UWidgetComponent* textManagerWidgetComponent;
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Demo")
+	TArray<UArrowComponent*> arrowPositions;
 
 protected:
 	// Called when the game starts or when spawned

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "Components/ArrowComponent.h"
 #include "TextManagerWidget.generated.h"
 
 /**
@@ -19,6 +20,10 @@ public :
 		void Initialise();
 	UFUNCTION(BlueprintCallable)
 		void GenerateBlanksInParagraph();
+	UFUNCTION(BlueprintCallable)
+		void SpawnTextBoxes(int textBoxesIndex, FString blankWordRef);
+	UFUNCTION(BlueprintCallable)
+		void SetTextBoxPositions(TArray<UArrowComponent*> arrowPositions);
 	UFUNCTION()
 		void PublicTick(float DeltaTime);
 
@@ -26,6 +31,8 @@ public :
 		class UTextBlock* paragraphTextBlock;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DemoData")
 		int32 numOfBlanks;
+	UPROPERTY(EditDefaultsOnly, Category = "DemoData")
+		TSubclassOf<class AFillTheBlanksProjectile> projectileClass;
 
 private :
 	UPROPERTY()
@@ -34,4 +41,8 @@ private :
 		TArray<FString> blanksTextArray;
 	UPROPERTY()
 		TArray<int32> blanksIndexArray;
+	UPROPERTY()
+		TArray<FTransform> textBoxesTransforms;
+	UPROPERTY()
+		UWorld* world;
 };
