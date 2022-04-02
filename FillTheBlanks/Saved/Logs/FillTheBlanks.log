@@ -1669,3 +1669,522 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.02-08.51.27:237][572]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.04.02-08.51.27:259][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
 [2022.04.02-08.51.27:287][573]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.04.02-09.05.19:527][198]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FirstPerson/FirstPersonCharacter.FirstPersonCharacter
+[2022.04.02-09.05.21:565][271]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-09.05.21:565][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.05.21:644][271]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FirstPerson/FirstPersonCharacter.FirstPersonCharacter
+[2022.04.02-09.05.23:125][330]LogD3D12RHI: Creating RTPSO with 132 shaders (0 cached, 2 new) took 39.44 ms. Compile time 11.20 ms, link time 25.70 ms.
+[2022.04.02-09.28.56:245][358]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.02-09.28.56:264][358]Candidate modules for hot reload:
+[2022.04.02-09.28.56:264][358]  FillTheBlanks
+[2022.04.02-09.28.56:264][358]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,8539 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.02-09.28.56:268][358]Warning: Starting HotReload took  0.0s.
+[2022.04.02-09.28.59:401][529]CompilerResultsLog: New page: Compilation - 2 Apr 2022, 11:28:59
+[2022.04.02-09.28.59:401][529]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.02-09.28.59:402][529]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.02-09.28.59:402][529]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.02-09.28.59:402][529]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.04.02-09.28.59:402][529]CompilerResultsLog:   [1/4] FillTheBlanksCharacter.cpp
+[2022.04.02-09.28.59:402][529]CompilerResultsLog:    E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Source\FillTheBlanks\FillTheBlanksCharacter.cpp(150) : error C2065: 'SpawnRotation': undeclared identifier
+[2022.04.02-09.28.59:402][529]LogMainFrame: MainFrame: Module compiling took 3.156 seconds
+[2022.04.02-09.28.59:459][529]Warning: HotReload failed, recompile failed
+[2022.04.02-09.30.57:172][561]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.02-09.30.57:191][561]Candidate modules for hot reload:
+[2022.04.02-09.30.57:191][561]  FillTheBlanks
+[2022.04.02-09.30.57:191][561]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,8231 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.02-09.30.57:200][561]Warning: Starting HotReload took  0.0s.
+[2022.04.02-09.31.01:885][824]CompilerResultsLog: New page: Compilation - 2 Apr 2022, 11:31:01
+[2022.04.02-09.31.01:885][824]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.02-09.31.01:885][824]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.02-09.31.01:885][824]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.02-09.31.01:885][824]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.04.02-09.31.01:885][824]CompilerResultsLog:   [1/4] FillTheBlanksCharacter.cpp
+[2022.04.02-09.31.01:885][824]CompilerResultsLog:   [2/4] UE4Editor-FillTheBlanks-8231.lib
+[2022.04.02-09.31.01:885][824]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-8231.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-8231.exp
+[2022.04.02-09.31.01:885][824]CompilerResultsLog:   [3/4] UE4Editor-FillTheBlanks-8231.dll
+[2022.04.02-09.31.01:885][824]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-8231.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-8231.suppressed.exp
+[2022.04.02-09.31.01:885][824]CompilerResultsLog:   [4/4] FillTheBlanksEditor.target
+[2022.04.02-09.31.01:885][824]CompilerResultsLog: Total time in Parallel executor: 3.56 seconds
+[2022.04.02-09.31.01:885][824]CompilerResultsLog: Total execution time: 4.49 seconds
+[2022.04.02-09.31.01:885][824]LogMainFrame: MainFrame: Module compiling took 4.714 seconds
+[2022.04.02-09.31.01:983][824]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0009 seconds. Added 6 classes and 2 folders.
+[2022.04.02-09.31.01:989][824]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.02-09.31.02:181][824]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0154 seconds. Added 3609 classes and 864 folders.
+[2022.04.02-09.31.02:181][824]Display: HotReload took  5.0s.
+[2022.04.02-09.31.03:958][903]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.02-09.31.03:972][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.02-09.31.03:973][903]PIE: New page: PIE session: FillInTheBlanksDemo (2 Apr 2022, 11:31:03)
+[2022.04.02-09.31.03:973][903]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.31.03:992][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019349s)
+[2022.04.02-09.31.03:994][903]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.02-09.31.03:995][903]LogPlayLevel: PIE: World Init took: (0.002563s)
+[2022.04.02-09.31.03:995][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.022112s)
+[2022.04.02-09.31.04:162][903]LogUObjectHash: Compacting FUObjectHashTables data took   8.31ms
+[2022.04.02-09.31.04:167][903]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.04.02-09.31.04:167][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.02-09.31.04:167][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.02-09.31.04:167][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.02-09.31.04:167][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.02-09.31.04:167][903]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.02-09.31.04:167][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.02-09.31.04:167][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.02-09.31.04:167][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.02-09.31.04:168][903]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.02-09.31.04:168][903]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.02-09.31.04:178][903]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.02-09.31.04:178][903]LogAudioMixer: Display: 1: FrontRight
+[2022.04.02-09.31.04:234][903]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.02-09.31.04:235][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.02-09.31.04:235][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.02-09.31.04:235][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.02-09.31.04:236][903]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.02-09.31.04:236][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.02-09.31.04:236][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.02-09.31.04:257][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.02-09.31.04:257][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.02-09.31.04:257][903]LogInit: FAudioDevice initialized.
+[2022.04.02-09.31.04:257][903]LogAudio: Display: Audio Device (ID: 13) registered with world 'FillInTheBlanksDemo'.
+[2022.04.02-09.31.04:276][903]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.02-09.31.04:279][903]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.02-10.31.04
+[2022.04.02-09.31.04:279][903]LogWorld: Bringing up level for play took: 0.001628
+[2022.04.02-09.31.04:279][903]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.04.02-09.31.04:281][903]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.02-09.31.04:282][903]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.04:283][903]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.04:283][903]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.04:283][903]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.04:283][903]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.04:285][903]PIE: Server logged in
+[2022.04.02-09.31.04:285][903]PIE: Play in editor total start time 0.316 seconds.
+[2022.04.02-09.31.11:218][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.31.11:218][314]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.31.11:218][314]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-09.31.11:218][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.31.11:230][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.02-09.31.11:236][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.31.11:267][314]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.02-09.31.11:267][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.31.11:268][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.31.11:286][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.31.11:300][314]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2022.04.02-09.31.11:329][315]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.04.02-09.31.12:225][361]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.02-09.31.12:232][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.02-09.31.12:232][361]PIE: New page: PIE session: FillInTheBlanksDemo (2 Apr 2022, 11:31:12)
+[2022.04.02-09.31.12:256][361]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.31.12:270][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013265s)
+[2022.04.02-09.31.12:272][361]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.02-09.31.12:272][361]LogPlayLevel: PIE: World Init took: (0.002523s)
+[2022.04.02-09.31.12:272][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.016067s)
+[2022.04.02-09.31.12:307][361]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2022.04.02-09.31.12:310][361]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.04.02-09.31.12:310][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.02-09.31.12:310][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.02-09.31.12:310][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.02-09.31.12:310][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.02-09.31.12:310][361]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.02-09.31.12:310][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.02-09.31.12:310][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.02-09.31.12:310][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.02-09.31.12:311][361]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.02-09.31.12:311][361]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.02-09.31.12:322][361]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.02-09.31.12:322][361]LogAudioMixer: Display: 1: FrontRight
+[2022.04.02-09.31.12:378][361]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.02-09.31.12:378][361]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.02-09.31.12:378][361]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.02-09.31.12:378][361]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.02-09.31.12:379][361]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.02-09.31.12:379][361]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.02-09.31.12:379][361]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.02-09.31.12:397][361]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.02-09.31.12:397][361]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.02-09.31.12:397][361]LogInit: FAudioDevice initialized.
+[2022.04.02-09.31.12:397][361]LogAudio: Display: Audio Device (ID: 14) registered with world 'FillInTheBlanksDemo'.
+[2022.04.02-09.31.12:411][361]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.02-09.31.12:413][361]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.02-10.31.12
+[2022.04.02-09.31.12:413][361]LogWorld: Bringing up level for play took: 0.001361
+[2022.04.02-09.31.12:413][361]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.04.02-09.31.12:416][361]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.02-09.31.12:416][361]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.12:417][361]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.12:417][361]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.12:418][361]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.12:418][361]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.12:419][361]PIE: Server logged in
+[2022.04.02-09.31.12:420][361]PIE: Play in editor total start time 0.189 seconds.
+[2022.04.02-09.31.22:468][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.31.22:468][958]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.31.22:469][958]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-09.31.22:469][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.31.22:480][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.02-09.31.22:486][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.31.22:518][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.31.22:518][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.31.22:520][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.31.22:543][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.04.02-09.31.22:569][959]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.04.02-09.31.38:878][918]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.02-09.31.38:897][918]Candidate modules for hot reload:
+[2022.04.02-09.31.38:897][918]  FillTheBlanks
+[2022.04.02-09.31.38:897][918]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,1502 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.02-09.31.38:901][918]Warning: Starting HotReload took  0.0s.
+[2022.04.02-09.31.43:072][153]CompilerResultsLog: New page: Compilation - 2 Apr 2022, 11:31:43
+[2022.04.02-09.31.43:072][153]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.02-09.31.43:072][153]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.02-09.31.43:072][153]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.02-09.31.43:072][153]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.04.02-09.31.43:072][153]CompilerResultsLog:   [1/4] FillTheBlanksCharacter.cpp
+[2022.04.02-09.31.43:072][153]CompilerResultsLog:   [2/4] UE4Editor-FillTheBlanks-1502.lib
+[2022.04.02-09.31.43:072][153]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1502.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1502.exp
+[2022.04.02-09.31.43:072][153]CompilerResultsLog:   [3/4] UE4Editor-FillTheBlanks-1502.dll
+[2022.04.02-09.31.43:072][153]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1502.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1502.suppressed.exp
+[2022.04.02-09.31.43:072][153]CompilerResultsLog:   [4/4] FillTheBlanksEditor.target
+[2022.04.02-09.31.43:072][153]CompilerResultsLog: Total time in Parallel executor: 3.08 seconds
+[2022.04.02-09.31.43:072][153]CompilerResultsLog: Total execution time: 3.99 seconds
+[2022.04.02-09.31.43:072][153]LogMainFrame: MainFrame: Module compiling took 4.194 seconds
+[2022.04.02-09.31.43:130][153]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2022.04.02-09.31.43:136][153]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.02-09.31.43:296][153]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0113 seconds. Added 3609 classes and 864 folders.
+[2022.04.02-09.31.43:296][153]Display: HotReload took  4.4s.
+[2022.04.02-09.31.49:819][517]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.02-09.31.49:824][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.02-09.31.49:824][517]PIE: New page: PIE session: FillInTheBlanksDemo (2 Apr 2022, 11:31:49)
+[2022.04.02-09.31.49:847][517]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.31.49:866][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018928s)
+[2022.04.02-09.31.49:868][517]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.02-09.31.49:869][517]LogPlayLevel: PIE: World Init took: (0.003170s)
+[2022.04.02-09.31.49:869][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.022356s)
+[2022.04.02-09.31.49:968][517]LogUObjectHash: Compacting FUObjectHashTables data took   8.51ms
+[2022.04.02-09.31.49:972][517]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.04.02-09.31.49:972][517]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.02-09.31.49:972][517]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.02-09.31.49:972][517]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.02-09.31.49:972][517]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.02-09.31.49:972][517]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.02-09.31.49:972][517]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.02-09.31.49:972][517]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.02-09.31.49:972][517]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.02-09.31.49:973][517]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.02-09.31.49:973][517]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.02-09.31.49:985][517]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.02-09.31.49:985][517]LogAudioMixer: Display: 1: FrontRight
+[2022.04.02-09.31.50:037][517]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.02-09.31.50:038][517]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.02-09.31.50:038][517]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.02-09.31.50:038][517]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.02-09.31.50:039][517]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.02-09.31.50:039][517]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.02-09.31.50:039][517]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.02-09.31.50:057][517]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.02-09.31.50:057][517]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.02-09.31.50:057][517]LogInit: FAudioDevice initialized.
+[2022.04.02-09.31.50:057][517]LogAudio: Display: Audio Device (ID: 15) registered with world 'FillInTheBlanksDemo'.
+[2022.04.02-09.31.50:070][517]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.02-09.31.50:073][517]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.02-10.31.50
+[2022.04.02-09.31.50:073][517]LogWorld: Bringing up level for play took: 0.001807
+[2022.04.02-09.31.50:073][517]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.04.02-09.31.50:075][517]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.02-09.31.50:075][517]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.50:076][517]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.50:076][517]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.50:077][517]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.50:077][517]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.31.50:078][517]PIE: Server logged in
+[2022.04.02-09.31.50:079][517]PIE: Play in editor total start time 0.256 seconds.
+[2022.04.02-09.31.55:627][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.31.55:627][845]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.31.55:628][845]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-09.31.55:628][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.31.55:642][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.02-09.31.55:649][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.31.55:685][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.31.55:686][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.31.55:687][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.31.55:728][845]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2022.04.02-09.31.55:759][846]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.04.02-09.35.31:106][569]LogSavePackage: Moving '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Saved/FirstPersonProjectile2E54376E4F3FC586823FC68577FA6509.tmp' to '../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset'
+[2022.04.02-09.35.31:145][569]AssetCheck: New page: Asset Save: FirstPersonProjectile
+[2022.04.02-09.35.31:145][569]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPerson/FirstPersonProjectile.FirstPersonProjectile
+[2022.04.02-09.35.32:071][616]BlueprintLog: New page: Compile FirstPersonProjectile
+[2022.04.02-09.35.32:080][616]LogActor: Warning: FirstPersonProjectile_C /Engine/Transient.World_2:PersistentLevel.FirstPersonProjectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.35.32:080][616]LogActor: Warning: FirstPersonProjectile_C /Engine/Transient.World_0:PersistentLevel.FirstPersonProjectile_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.35.32:137][616]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2022.04.02-09.35.32:141][616]LogActor: Warning: FirstPersonProjectile_C /Engine/Transient.World_0:PersistentLevel.FirstPersonProjectile_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.36.11:859][967]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.02-09.36.11:878][967]Candidate modules for hot reload:
+[2022.04.02-09.36.11:878][967]  FillTheBlanks
+[2022.04.02-09.36.11:878][967]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,7039 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.02-09.36.11:881][967]Warning: Starting HotReload took  0.0s.
+[2022.04.02-09.36.16:345][221]CompilerResultsLog: New page: Compilation - 2 Apr 2022, 11:36:16
+[2022.04.02-09.36.16:345][221]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.02-09.36.16:345][221]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.02-09.36.16:345][221]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.02-09.36.16:345][221]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.04.02-09.36.16:345][221]CompilerResultsLog:   [1/4] FillTheBlanksCharacter.cpp
+[2022.04.02-09.36.16:345][221]CompilerResultsLog:   [2/4] UE4Editor-FillTheBlanks-7039.lib
+[2022.04.02-09.36.16:345][221]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7039.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7039.exp
+[2022.04.02-09.36.16:346][221]CompilerResultsLog:   [3/4] UE4Editor-FillTheBlanks-7039.dll
+[2022.04.02-09.36.16:346][221]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7039.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-7039.suppressed.exp
+[2022.04.02-09.36.16:346][221]CompilerResultsLog:   [4/4] FillTheBlanksEditor.target
+[2022.04.02-09.36.16:346][221]CompilerResultsLog: Total time in Parallel executor: 3.37 seconds
+[2022.04.02-09.36.16:346][221]CompilerResultsLog: Total execution time: 4.29 seconds
+[2022.04.02-09.36.16:346][221]LogMainFrame: MainFrame: Module compiling took 4.486 seconds
+[2022.04.02-09.36.16:415][221]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2022.04.02-09.36.16:421][221]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.02-09.36.16:591][221]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0159 seconds. Added 3609 classes and 864 folders.
+[2022.04.02-09.36.16:591][221]Display: HotReload took  4.7s.
+[2022.04.02-09.36.17:865][277]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.02-09.36.17:872][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.02-09.36.17:872][277]PIE: New page: PIE session: FillInTheBlanksDemo (2 Apr 2022, 11:36:17)
+[2022.04.02-09.36.17:872][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.36.17:884][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011776s)
+[2022.04.02-09.36.17:885][277]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.02-09.36.17:886][277]LogPlayLevel: PIE: World Init took: (0.001580s)
+[2022.04.02-09.36.17:886][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.013536s)
+[2022.04.02-09.36.17:970][277]LogUObjectHash: Compacting FUObjectHashTables data took   6.91ms
+[2022.04.02-09.36.17:971][277]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.04.02-09.36.17:971][277]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.02-09.36.17:971][277]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.02-09.36.17:971][277]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.02-09.36.17:971][277]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.02-09.36.17:971][277]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.02-09.36.17:971][277]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.02-09.36.17:971][277]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.02-09.36.17:971][277]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.02-09.36.17:972][277]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.02-09.36.17:972][277]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.02-09.36.17:983][277]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.02-09.36.17:983][277]LogAudioMixer: Display: 1: FrontRight
+[2022.04.02-09.36.18:033][277]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.02-09.36.18:033][277]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.02-09.36.18:033][277]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.02-09.36.18:033][277]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.02-09.36.18:034][277]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.02-09.36.18:034][277]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.02-09.36.18:034][277]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.02-09.36.18:051][277]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.02-09.36.18:051][277]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.02-09.36.18:051][277]LogInit: FAudioDevice initialized.
+[2022.04.02-09.36.18:051][277]LogAudio: Display: Audio Device (ID: 16) registered with world 'FillInTheBlanksDemo'.
+[2022.04.02-09.36.18:061][277]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.02-09.36.18:063][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.02-10.36.18
+[2022.04.02-09.36.18:063][277]LogWorld: Bringing up level for play took: 0.001379
+[2022.04.02-09.36.18:063][277]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.04.02-09.36.18:066][277]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.02-09.36.18:067][277]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.36.18:067][277]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.36.18:068][277]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.36.18:068][277]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.36.18:068][277]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.36.18:070][277]PIE: Server logged in
+[2022.04.02-09.36.18:071][277]PIE: Play in editor total start time 0.201 seconds.
+[2022.04.02-09.36.26:097][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.36.26:097][749]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.36.26:098][749]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-09.36.26:098][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.36.26:111][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.02-09.36.26:116][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.36.26:146][749]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.02-09.36.26:146][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.36.26:147][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.36.26:164][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.36.26:173][749]LogUObjectHash: Compacting FUObjectHashTables data took   7.16ms
+[2022.04.02-09.36.26:210][750]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.04.02-09.37.22:432][ 68]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.02-09.37.22:450][ 68]Candidate modules for hot reload:
+[2022.04.02-09.37.22:450][ 68]  FillTheBlanks
+[2022.04.02-09.37.22:450][ 68]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,3702 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.02-09.37.22:453][ 68]Warning: Starting HotReload took  0.0s.
+[2022.04.02-09.37.27:135][333]CompilerResultsLog: New page: Compilation - 2 Apr 2022, 11:37:27
+[2022.04.02-09.37.27:135][333]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.02-09.37.27:135][333]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.02-09.37.27:135][333]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.02-09.37.27:135][333]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.04.02-09.37.27:135][333]CompilerResultsLog:   [1/4] FillTheBlanksCharacter.cpp
+[2022.04.02-09.37.27:135][333]CompilerResultsLog:   [2/4] UE4Editor-FillTheBlanks-3702.lib
+[2022.04.02-09.37.27:135][333]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3702.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3702.exp
+[2022.04.02-09.37.27:135][333]CompilerResultsLog:   [3/4] UE4Editor-FillTheBlanks-3702.dll
+[2022.04.02-09.37.27:135][333]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3702.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-3702.suppressed.exp
+[2022.04.02-09.37.27:135][333]CompilerResultsLog:   [4/4] FillTheBlanksEditor.target
+[2022.04.02-09.37.27:135][333]CompilerResultsLog: Total time in Parallel executor: 3.33 seconds
+[2022.04.02-09.37.27:135][333]CompilerResultsLog: Total execution time: 4.48 seconds
+[2022.04.02-09.37.27:135][333]LogMainFrame: MainFrame: Module compiling took 4.702 seconds
+[2022.04.02-09.37.27:195][333]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2022.04.02-09.37.27:201][333]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.02-09.37.27:363][333]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0116 seconds. Added 3609 classes and 864 folders.
+[2022.04.02-09.37.27:363][333]Display: HotReload took  4.9s.
+[2022.04.02-09.37.29:617][445]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.02-09.37.29:624][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.02-09.37.29:624][445]PIE: New page: PIE session: FillInTheBlanksDemo (2 Apr 2022, 11:37:29)
+[2022.04.02-09.37.29:624][445]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.37.29:636][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012219s)
+[2022.04.02-09.37.29:638][445]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.02-09.37.29:639][445]LogPlayLevel: PIE: World Init took: (0.002246s)
+[2022.04.02-09.37.29:639][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.014650s)
+[2022.04.02-09.37.29:722][445]LogUObjectHash: Compacting FUObjectHashTables data took   7.02ms
+[2022.04.02-09.37.29:722][445]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.04.02-09.37.29:722][445]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.02-09.37.29:722][445]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.02-09.37.29:722][445]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.02-09.37.29:722][445]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.02-09.37.29:722][445]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.02-09.37.29:723][445]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.02-09.37.29:723][445]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.02-09.37.29:723][445]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.02-09.37.29:723][445]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.02-09.37.29:723][445]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.02-09.37.29:735][445]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.02-09.37.29:735][445]LogAudioMixer: Display: 1: FrontRight
+[2022.04.02-09.37.29:781][445]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.02-09.37.29:781][445]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.02-09.37.29:781][445]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.02-09.37.29:781][445]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.02-09.37.29:781][445]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.02-09.37.29:782][445]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.02-09.37.29:782][445]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.02-09.37.29:799][445]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.02-09.37.29:799][445]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.02-09.37.29:799][445]LogInit: FAudioDevice initialized.
+[2022.04.02-09.37.29:799][445]LogAudio: Display: Audio Device (ID: 17) registered with world 'FillInTheBlanksDemo'.
+[2022.04.02-09.37.29:812][445]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.02-09.37.29:814][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.02-10.37.29
+[2022.04.02-09.37.29:814][445]LogWorld: Bringing up level for play took: 0.001318
+[2022.04.02-09.37.29:814][445]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.04.02-09.37.29:816][445]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.02-09.37.29:817][445]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.37.29:817][445]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.37.29:818][445]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.37.29:818][445]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.37.29:818][445]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.37.29:819][445]PIE: Server logged in
+[2022.04.02-09.37.29:821][445]PIE: Play in editor total start time 0.198 seconds.
+[2022.04.02-09.37.33:497][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.37.33:497][660]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.37.33:498][660]LogWorld: UWorld::CleanupWorld for FillInTheBlanksDemo, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-09.37.33:498][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.37.33:511][660]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.02-09.37.33:517][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-09.37.33:547][660]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.02-09.37.33:554][660]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.37.33:555][660]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-09.37.33:573][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-09.37.33:597][660]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2022.04.02-09.37.33:627][661]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.04.02-09.41.34:653][833]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.02-09.41.34:671][833]Candidate modules for hot reload:
+[2022.04.02-09.41.34:671][833]  FillTheBlanks
+[2022.04.02-09.41.34:672][833]Launching UnrealBuildTool... [E:/Unreal Engine/UE 4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FillTheBlanks,1518 FillTheBlanksEditor Win64 Development -Project="E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject" "E:/Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/FillTheBlanks.uproject"  -IgnoreJunk]
+[2022.04.02-09.41.34:674][833]Warning: Starting HotReload took  0.0s.
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog: New page: Compilation - 2 Apr 2022, 11:41:39
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo).
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog: Building FillTheBlanksEditor...
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog: Using Visual Studio 2019 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog:   [1/4] FillTheBlanksCharacter.cpp
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog:   [2/4] UE4Editor-FillTheBlanks-1518.lib
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1518.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1518.exp
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog:   [3/4] UE4Editor-FillTheBlanks-1518.dll
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog:      Creating library E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1518.suppressed.lib and object E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Intermediate\Build\Win64\UE4Editor\Development\FillTheBlanks\UE4Editor-FillTheBlanks-1518.suppressed.exp
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog:   [4/4] FillTheBlanksEditor.target
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog: Total time in Parallel executor: 3.44 seconds
+[2022.04.02-09.41.39:199][ 89]CompilerResultsLog: Total execution time: 4.37 seconds
+[2022.04.02-09.41.39:200][ 89]LogMainFrame: MainFrame: Module compiling took 4.546 seconds
+[2022.04.02-09.41.39:263][ 89]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FillTheBlanks' in 0.0006 seconds. Added 6 classes and 2 folders.
+[2022.04.02-09.41.39:270][ 89]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.02-09.41.39:436][ 89]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3609 classes and 864 folders.
+[2022.04.02-09.41.39:436][ 89]Display: HotReload took  4.8s.
+[2022.04.02-09.41.40:824][151]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.02-09.41.40:833][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.02-09.41.40:833][151]PIE: New page: PIE session: FillInTheBlanksDemo (2 Apr 2022, 11:41:40)
+[2022.04.02-09.41.40:833][151]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FillInTheBlanksDemo
+[2022.04.02-09.41.40:844][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010917s)
+[2022.04.02-09.41.40:846][151]LogAIModule: Creating AISystem for world FillInTheBlanksDemo
+[2022.04.02-09.41.40:847][151]LogPlayLevel: PIE: World Init took: (0.002338s)
+[2022.04.02-09.41.40:847][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FillInTheBlanksDemo.FillInTheBlanksDemo to /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo (0.013440s)
+[2022.04.02-09.41.40:937][151]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2022.04.02-09.41.40:937][151]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.04.02-09.41.40:937][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.02-09.41.40:937][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.02-09.41.40:937][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.02-09.41.40:937][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.02-09.41.40:937][151]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.02-09.41.40:937][151]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.02-09.41.40:937][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.02-09.41.40:937][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.02-09.41.40:938][151]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.02-09.41.40:938][151]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.02-09.41.40:947][151]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.02-09.41.40:947][151]LogAudioMixer: Display: 1: FrontRight
+[2022.04.02-09.41.40:997][151]LogAudioMixer: Display: Using Audio Device Headphones (WF-C500)
+[2022.04.02-09.41.40:997][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.02-09.41.40:997][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.02-09.41.40:997][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.02-09.41.40:998][151]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.02-09.41.40:998][151]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.02-09.41.40:998][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.02-09.41.41:016][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.02-09.41.41:016][151]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.02-09.41.41:016][151]LogInit: FAudioDevice initialized.
+[2022.04.02-09.41.41:016][151]LogAudio: Display: Audio Device (ID: 18) registered with world 'FillInTheBlanksDemo'.
+[2022.04.02-09.41.41:025][151]LogLoad: Game class is 'FillTheBlanksGameMode'
+[2022.04.02-09.41.41:027][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo up for play (max tick rate 60) at 2022.04.02-10.41.41
+[2022.04.02-09.41.41:027][151]LogWorld: Bringing up level for play took: 0.001474
+[2022.04.02-09.41.41:027][151]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.04.02-09.41.41:029][151]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.02-09.41.41:030][151]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.41.41:030][151]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.41.41:030][151]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.41.41:031][151]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.41.41:031][151]LogActor: Warning: FirstPersonProjectile_C /Game/Maps/UEDPIE_0_FillInTheBlanksDemo.FillInTheBlanksDemo:PersistentLevel.FirstPersonProjectile_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.02-09.41.41:032][151]PIE: Server logged in
+[2022.04.02-09.41.41:033][151]PIE: Play in editor total start time 0.201 seconds.
+[2022.04.02-09.41.45:334][406]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.04.02-09.41.45:334][406]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2022.04.02-09.42.14:402][406]LogWindows: Error: === Critical error: ===
+[2022.04.02-09.42.14:405][406]LogWindows: Error: 
+[2022.04.02-09.42.14:405][406]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:E:\Unreal Engine\UE 4\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 674] 
+[2022.04.02-09.42.14:406][406]LogWindows: Error: Array index out of bounds: 0 from an array of size 0
+[2022.04.02-09.42.14:407][406]LogWindows: Error: 
+[2022.04.02-09.42.14:407][406]LogWindows: Error: 
+[2022.04.02-09.42.14:407][406]LogWindows: Error: [Callstack] 0x00007ffe64e9478c KERNELBASE.dll!UnknownFunction []
+[2022.04.02-09.42.14:407][406]LogWindows: Error: [Callstack] 0x00007ffdfa4ad066 UE4Editor-Core.dll!ReportAssert() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformCrashContext.cpp:1616]
+[2022.04.02-09.42.14:407][406]LogWindows: Error: [Callstack] 0x00007ffdfa4b07a8 UE4Editor-Core.dll!FWindowsErrorOutputDevice::Serialize() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsErrorOutputDevice.cpp:78]
+[2022.04.02-09.42.14:407][406]LogWindows: Error: [Callstack] 0x00007ffdfa1be8cd UE4Editor-Core.dll!FOutputDevice::LogfImpl() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\OutputDevice.cpp:61]
+[2022.04.02-09.42.14:408][406]LogWindows: Error: [Callstack] 0x00007ffdfa155575 UE4Editor-Core.dll!AssertFailedImplV() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\AssertionMacros.cpp:104]
+[2022.04.02-09.42.14:408][406]LogWindows: Error: [Callstack] 0x00007ffdfa157620 UE4Editor-Core.dll!FDebug::CheckVerifyFailedImpl() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\AssertionMacros.cpp:461]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffe0e6b1068 UE4Editor-FillTheBlanks-1518.dll!DispatchCheckVerify<void,<lambda_19a7496451047a428e24f1fc87924414> >() [E:\Unreal Engine\UE 4\UE_4.26\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:165]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffe0e6a5c49 UE4Editor-FillTheBlanks-1518.dll!AFillTheBlanksCharacter::OnFire() [E:\Companies Code Tests or Tests\BotTheory\FillInTheBlanksDemo\FillTheBlanks\Source\FillTheBlanks\FillTheBlanksCharacter.cpp:160]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdece3264a UE4Editor-Engine.dll!FInputActionUnifiedDelegate::Execute() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Components\InputComponent.h:288]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdece61e8e UE4Editor-Engine.dll!UPlayerInput::ProcessInputStack() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\UserInterface\PlayerInput.cpp:1384]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdec907769 UE4Editor-Engine.dll!APlayerController::ProcessPlayerInput() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:2531]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdec91afc2 UE4Editor-Engine.dll!APlayerController::TickPlayerInput() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:4550]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdec9056eb UE4Editor-Engine.dll!APlayerController::PlayerTick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:2179]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdec918e8e UE4Editor-Engine.dll!APlayerController::TickActor() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PlayerController.cpp:4702]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdebb2f78d UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp:173]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdecd1297e UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:284]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdecd1b56f UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Async\TaskGraphInterfaces.h:886]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdf9f6ecdc UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:709]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdf9f6f0ce UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:601]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdf9f808fd UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp:1525]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdecd38464 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:564]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdecd3edaa UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\TickTaskManager.cpp:1578]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdec45ad8f UE4Editor-Engine.dll!UWorld::RunTickGroup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:782]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdec4655f7 UE4Editor-Engine.dll!UWorld::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:1457]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffde9ec9423 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:1720]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ffdea7e50e6 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\UnrealEdEngine.cpp:426]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ff688d99bc2 UE4Editor.exe!FEngineLoop::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:4836]
+[2022.04.02-09.42.14:410][406]LogWindows: Error: [Callstack] 0x00007ff688db117c UE4Editor.exe!GuardedMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:169]
+[2022.04.02-09.42.14:411][406]LogWindows: Error: [Callstack] 0x00007ff688db125a UE4Editor.exe!GuardedMainWrapper() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2022.04.02-09.42.14:411][406]LogWindows: Error: [Callstack] 0x00007ff688dc52bd UE4Editor.exe!WinMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:268]
+[2022.04.02-09.42.14:411][406]LogWindows: Error: [Callstack] 0x00007ff688dc7fea UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\5\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2022.04.02-09.42.14:411][406]LogWindows: Error: [Callstack] 0x00007ffe65d554e0 KERNEL32.DLL!UnknownFunction []
+[2022.04.02-09.42.14:411][406]LogWindows: Error: [Callstack] 0x00007ffe6742485b ntdll.dll!UnknownFunction []
+[2022.04.02-09.42.14:411][406]LogWindows: Error: 
+[2022.04.02-09.42.14:458][406]LogExit: Executing StaticShutdownAfterError
+[2022.04.02-09.42.14:902][406]LogWindows: FPlatformMisc::RequestExit(1)
+[2022.04.02-09.42.14:902][406]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.04.02-09.42.14:913][406]Log file closed, 04/02/22 10:42:14
