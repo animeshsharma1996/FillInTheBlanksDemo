@@ -163,11 +163,11 @@
 "../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 162
 "../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 163
 "../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 164
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 165
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 166
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 167
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 168
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 169
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 165
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 166
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 167
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 168
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 169
 "../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 170
 "../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 171
 "../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 172
@@ -199,58 +199,62 @@
 "../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 198
 "../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 199
 "../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 200
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset" 201
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Geometry/Meshes/TemplateFloor.uasset" 202
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset" 203
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset" 204
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 205
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 206
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 207
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 208
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 209
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 210
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" 211
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset" 212
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset" 213
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 214
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 215
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 216
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset" 217
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 218
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 219
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 220
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 221
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 222
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 223
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 224
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset" 225
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset" 226
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 227
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 228
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 229
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 230
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 231
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 232
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" 233
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 234
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 235
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 236
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 237
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 238
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 239
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 240
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 241
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset" 242
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Meshes/BaseMaterial.uasset" 243
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset" 244
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset" 245
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_Fire.uasset" 246
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 247
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_Run.uasset" 248
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 249
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" 250
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset" 251
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 252
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" 253
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonCharacter.uasset" 254
-"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap" 255
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 201
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo_BuiltData.uasset" 202
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Geometry/Meshes/TemplateFloor.uasset" 203
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Meshes/MaterialBlack.uasset" 204
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Meshes/HighlightMaterial.uasset" 205
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/BlankActorBP.uasset" 206
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 207
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 208
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 209
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 210
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 211
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 212
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Meshes/BaseMaterial.uasset" 213
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Meshes/FirstPersonProjectileMaterialBlack.uasset" 214
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" 215
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset" 216
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset" 217
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 218
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 219
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 220
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset" 221
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 222
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 223
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 224
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 225
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 226
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 227
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 228
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset" 229
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset" 230
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 231
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 232
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 233
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 234
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 235
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 236
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" 237
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 238
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 239
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 240
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 241
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 242
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 243
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 244
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 245
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset" 246
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_Fire.uasset" 247
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 248
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_Run.uasset" 249
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 250
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" 251
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset" 252
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 253
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" 254
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonCharacter.uasset" 255
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/FirstPerson/FirstPersonProjectile.uasset" 256
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerWidgetBP.uasset" 257
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Blueprints/TextBlock/TextManagerBP.uasset" 258
+"../../../../../../Companies Code Tests or Tests/BotTheory/FillInTheBlanksDemo/FillTheBlanks/Content/Maps/FillInTheBlanksDemo.umap" 259
