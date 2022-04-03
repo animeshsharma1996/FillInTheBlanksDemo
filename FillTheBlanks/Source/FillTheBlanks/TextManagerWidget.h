@@ -26,10 +26,12 @@ public :
 		void SetTextBoxPositions(TArray<UArrowComponent*> arrowPositions);
 	UFUNCTION(BlueprintCallable)
 		FString GenerateRequiredDashes(int32 charactersNumbers);
-	UFUNCTION()
-		void PublicTick(float DeltaTime);
+	UFUNCTION(BlueprintCallable)
+		FString GetGeneratedString();
 
-	UPROPERTY(meta = (BindWidget))
+	UPROPERTY(BlueprintReadWrite)
+		TMap<int32, FString> blankWordsKeyMap;
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* paragraphTextBlock;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DemoData")
 		int32 numOfBlanks;
@@ -39,6 +41,8 @@ public :
 		TSubclassOf<class ABlankActor> blankActorClass;
 
 private :
+	UPROPERTY()
+		FString newGeneratedString;
 	UPROPERTY()
 		TArray<FString> paragraphTextArray;
 	UPROPERTY()

@@ -10,12 +10,14 @@ void ABlankActor::BeginPlay()
 	GetComponents(staticMeshes);
 }
 
-
-// Called when the game starts or when spawned
 void ABlankActor::Initialise(int32 blankIndex, FString blankString)
 {
 	blankWordIndex = blankIndex;
 	blankWordString = blankString;
+
+	//FVector currentLocation = GetActorLocation();
+	//FVector newLocation = FVector(currentLocation.X, currentLocation.Y + 100.0F, currentLocation.Z + 50.0F);
+	//SetActorLocation(newLocation);
 }
 
 void ABlankActor::TriggerHighlight()

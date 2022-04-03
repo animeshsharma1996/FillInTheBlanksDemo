@@ -22,7 +22,11 @@ void ATextManager::BeginPlay()
 	textManagerWidgetComponent = FindComponentByClass<UWidgetComponent>();
 
 	GetComponents(arrowPositions);
+}
 
+
+void ATextManager::InitTextWidget()
+{
 	if (textManagerWidgetComponent != nullptr)
 	{
 		textManagerWidget = Cast<UTextManagerWidget>(textManagerWidgetComponent->GetWidget());

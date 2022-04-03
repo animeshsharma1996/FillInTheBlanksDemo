@@ -19,12 +19,14 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
+
+UFUNCTION(BlueprintCallable)
+		void InitTextWidget();
+
 UPROPERTY()
 	class UWidgetComponent* textManagerWidgetComponent;
 UPROPERTY()
 	TArray<UArrowComponent*> arrowPositions;
-//UPROPERTY()
-	//class UText3DComponent* paragraphText;
 
 protected:
 	virtual void BeginPlay() override;
