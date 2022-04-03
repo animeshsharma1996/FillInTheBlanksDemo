@@ -57,6 +57,7 @@ public:
 
 protected:
 	virtual void BeginPlay();
+	virtual void Tick(float DeltaTime);
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -130,6 +131,8 @@ protected:
 		bool isTextAttached;
 	UPROPERTY()
 		AActor* textBlock;
+	UPROPERTY()
+		ABlankActor* currentBlankActor;
 	UPROPERTY()
 		UWorld* World;
 public:

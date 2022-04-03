@@ -8,9 +8,6 @@
 #include "BlankActor.h"
 #include "TextManagerWidget.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class FILLTHEBLANKS_API UTextManagerWidget : public UUserWidget
 {

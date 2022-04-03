@@ -25,6 +25,7 @@ AFillTheBlanksCharacter::AFillTheBlanksCharacter()
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 	isTextAttached = false;
 	textBlock = nullptr;
+	currentBlankActor = nullptr;
 	World = GetWorld();
 
 	// set our turn rates for input
@@ -105,6 +106,13 @@ void AFillTheBlanksCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
+}
+
+void AFillTheBlanksCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	HighlightBlankObject();
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -232,6 +240,14 @@ void AFillTheBlanksCharacter::HighlightBlankObject()
 			AActor* hitActor = outHit.GetActor();
 			ABlankActor* blankHitActor = Cast<ABlankActor>(hitActor);
 			blankHitActor->TriggerHighlight();
+			currentBlankActor = blankHitActor;
+		}
+		else
+		{
+			if (currentBlankActor != nullptr)
+			{
+				currentBlankActor->ResetMaterial();
+			}
 		}
 	}
 }
