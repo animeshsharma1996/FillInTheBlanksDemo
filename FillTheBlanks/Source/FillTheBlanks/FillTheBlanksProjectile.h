@@ -27,7 +27,9 @@ public:
 	UFUNCTION()
 		void ResetTransform();
 	UFUNCTION()
-		void SetIsFilled(bool value) { isFilled = true; }
+		bool GetIsFilled() { return isFilled; }
+	UFUNCTION()
+		void SetIsFilled(bool value) { isFilled = value; }
 
 	UPROPERTY(BlueprintReadOnly)
 		bool isFilled;

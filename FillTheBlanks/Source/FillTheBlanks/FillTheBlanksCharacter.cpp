@@ -165,11 +165,15 @@ void AFillTheBlanksCharacter::OnFire()
 				if (actorHit && outHit.GetActor()->ActorHasTag("textBlock"))
 				{
 					textBlock = outHit.GetActor();
-					textBlock->AttachToComponent(FP_MuzzleLocation, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
-					textBlock->SetActorLocation(FP_MuzzleLocation->GetComponentLocation() + FirstPersonCameraComponent->GetUpVector()*10) ;
-					textBlock->SetActorScale3D(textBlock->GetActorScale()/8);
-					isTextAttached = true;
-					PlaySoundAnimation();
+					AFillTheBlanksProjectile* textBlockActor = Cast<AFillTheBlanksProjectile>(textBlock);
+					if (!textBlockActor->GetIsFilled())
+					{
+						textBlock->AttachToComponent(FP_MuzzleLocation, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
+						textBlock->SetActorLocation(FP_MuzzleLocation->GetComponentLocation() + FirstPersonCameraComponent->GetUpVector() * 10);
+						textBlock->SetActorScale3D(textBlock->GetActorScale() / 8);
+						isTextAttached = true;
+						PlaySoundAnimation();
+					}
 				}
 			}
 		}
