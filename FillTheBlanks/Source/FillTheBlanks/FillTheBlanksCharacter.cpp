@@ -106,6 +106,13 @@ void AFillTheBlanksCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
+
+	textManagerRef = Cast<ATextManager>(UGameplayStatics::GetActorOfClass(World, textManagerClass));
+
+	if (textManagerRef != nullptr)
+	{
+		textManagerWidgetRef = textManagerRef->textManagerWidget;
+	}
 }
 
 void AFillTheBlanksCharacter::Tick(float DeltaTime)
@@ -190,6 +197,16 @@ void AFillTheBlanksCharacter::OnFire()
 				if (blankHitActor->GetBlankWordString() == textBlockActor->GetBlankTextString())
 				{
 					//Forward the arrow to the next blank word
+					blankHitActor->SetCurrentBlank(false);
+					textBlock->DetachRootComponentFromParent(true);
+					textBlockActor->ResetTransform();
+					textBlockActor->SetIsFilled(true);
+					textBlockActor->SetActorLocation(blankHitActor->GetActorLocation() + FVector(0.0F, 0.0F, 20.0F));
+
+					if (textManagerWidgetRef != nullptr)
+					{
+						textManagerWidgetRef->SetNextBlankActor();
+					}
 				}
 				else
 				{

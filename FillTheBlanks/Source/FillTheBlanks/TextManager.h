@@ -27,10 +27,11 @@ UPROPERTY()
 	class UWidgetComponent* textManagerWidgetComponent;
 UPROPERTY()
 	TArray<UArrowComponent*> arrowPositions;
+UPROPERTY()
+	class UTextManagerWidget* textManagerWidget;
 
 protected:
 	virtual void BeginPlay() override;
 
-UPROPERTY()
-	class UTextManagerWidget* textManagerWidget;
+
 };

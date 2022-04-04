@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "BlankActor.h"
+#include "TextManager.h"
 #include "FillTheBlanksCharacter.generated.h"
 
 class UInputComponent;
@@ -79,6 +80,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class ABlankActor> blankActorClass;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		TSubclassOf<class ATextManager> textManagerClass;
+
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	USoundBase* FireSound;
@@ -135,6 +139,11 @@ protected:
 		ABlankActor* currentBlankActor;
 	UPROPERTY()
 		UWorld* World;
+	UPROPERTY()
+		class ATextManager* textManagerRef;
+	UPROPERTY()
+		class UTextManagerWidget* textManagerWidgetRef;
+
 public:
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }

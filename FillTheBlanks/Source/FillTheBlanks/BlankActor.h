@@ -20,6 +20,8 @@ public:
 	UFUNCTION()
 		FString GetBlankWordString() { return blankWordString; }
 	UFUNCTION(BlueprintCallable)
+		int32 GetBlankIndex() { return blankWordIndex; }
+	UFUNCTION(BlueprintCallable)
 		void TriggerHighlight();
 	UFUNCTION(BlueprintCallable)
 		void ResetMaterial();
