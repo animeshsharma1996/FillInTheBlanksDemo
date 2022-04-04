@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/ArrowComponent.h"
 #include "BlankActor.generated.h"
 
 UCLASS()
@@ -22,6 +23,10 @@ public:
 		void TriggerHighlight();
 	UFUNCTION(BlueprintCallable)
 		void ResetMaterial();
+	UFUNCTION(BlueprintCallable)
+		void SetCurrentBlank(bool value);
+	UFUNCTION(BlueprintCallable)
+		bool GetCurrentBlank() { return isCurrentBlank; }
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Meshes")
 		UMaterial* highlightedMaterial;
@@ -37,5 +42,8 @@ protected:
 		TArray<UStaticMeshComponent*> staticMeshes;
 	UPROPERTY()
 		bool isHighlighted;
-
+	UPROPERTY()
+		bool isCurrentBlank;
+	UPROPERTY()
+		class UArrowComponent* ownArrow;
 };

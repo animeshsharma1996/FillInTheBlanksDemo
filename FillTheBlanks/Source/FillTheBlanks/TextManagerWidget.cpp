@@ -10,6 +10,7 @@
 void UTextManagerWidget::Initialise()
 {
 	world = GetWorld();
+	firstBlankActor = false;
 	if (paragraphTextBlock != nullptr && world != nullptr)
 	{
 		GenerateBlanksInParagraph();
@@ -95,7 +96,13 @@ void UTextManagerWidget::SpawnBlankActor(int blankWordIndex,FString blankWordRef
 	FVector tempLocation = FVector(0.0F, 0.0F, 0.0F);
 	FRotator spawnRotation = FQuat::MakeFromEuler(FVector(90.0F, 0.0F, 90.0F)).Rotator();
 	ABlankActor* blankActor = world->SpawnActor<ABlankActor>(blankActorClass, spawnLocation, spawnRotation);
+	if (!firstBlankActor)
+	{
+		blankActor->SetCurrentBlank(true);
+		firstBlankActor = true;
+	}
 	blankActor->Initialise(blankWordIndex, blankWordRef);
+
 }
 
 FString UTextManagerWidget::GenerateRequiredDashes(int32 charactersNumbers)

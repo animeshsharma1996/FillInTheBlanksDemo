@@ -7,6 +7,7 @@ void ABlankActor::BeginPlay()
 {
 	isHighlighted = false;
 
+	ownArrow = FindComponentByClass<UArrowComponent>();
 	GetComponents(staticMeshes);
 }
 
@@ -15,9 +16,13 @@ void ABlankActor::Initialise(int32 blankIndex, FString blankString)
 	blankWordIndex = blankIndex;
 	blankWordString = blankString;
 
-	//FVector currentLocation = GetActorLocation();
-	//FVector newLocation = FVector(currentLocation.X, currentLocation.Y + 100.0F, currentLocation.Z + 50.0F);
-	//SetActorLocation(newLocation);
+	if (isCurrentBlank)
+	{
+		if (ownArrow != nullptr)
+		{
+			ownArrow->SetVisibility(true);
+		}
+	}
 }
 
 void ABlankActor::TriggerHighlight()
@@ -48,6 +53,19 @@ void ABlankActor::ResetMaterial()
 		}
 		isHighlighted = false;
 	}
+}
+
+void ABlankActor::SetCurrentBlank(bool value)
+{
+	isCurrentBlank = value;
+	if (!isCurrentBlank)
+	{
+		if (ownArrow != nullptr) 
+		{ 
+			ownArrow->SetVisibility(false); 
+		}
+	}
+
 }
 
 

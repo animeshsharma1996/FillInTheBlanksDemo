@@ -40,6 +40,8 @@ public :
 	UPROPERTY(EditDefaultsOnly, Category = "DemoData")
 		TSubclassOf<class ABlankActor> blankActorClass;
 
+	TQueue<ABlankActor*> blankActorsQueue;
+
 private :
 	UPROPERTY()
 		FString newGeneratedString;
@@ -53,4 +55,6 @@ private :
 		TArray<FTransform> textBoxesTransforms;
 	UPROPERTY()
 		UWorld* world;
+	UPROPERTY()
+		bool firstBlankActor;
 };
