@@ -11,6 +11,7 @@ void UTextManagerWidget::Initialise()
 {
 	world = GetWorld();
 	firstBlankActor = false;
+	isGameOver = false;
 	if (paragraphTextBlock != nullptr && world != nullptr)
 	{
 		GenerateBlanksInParagraph();
@@ -139,6 +140,12 @@ void UTextManagerWidget::SetNextBlankActor()
 	ABlankActor* blankActor;
 	blankActorsQueue.Dequeue(blankActor);
 	ABlankActor* nextBlankActor;
-	blankActorsQueue.Peek(nextBlankActor);
-	nextBlankActor->SetCurrentBlank(true);
+	if (blankActorsQueue.Peek(nextBlankActor))
+	{
+		nextBlankActor->SetCurrentBlank(true);
+	}
+	else
+	{
+		isGameOver = true;
+	}
 }

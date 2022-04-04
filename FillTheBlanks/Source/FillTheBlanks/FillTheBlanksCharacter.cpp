@@ -187,7 +187,7 @@ void AFillTheBlanksCharacter::OnFire()
 				AFillTheBlanksProjectile* textBlockActor = Cast<AFillTheBlanksProjectile>(textBlock);
 
 				//If the blank word is correct
-				if (blankHitActor->GetBlankWordString() == textBlockActor->GetBlankTextString())
+				if (blankHitActor->GetBlankWordString() == textBlockActor->GetBlankTextString() && blankHitActor->GetCurrentBlank())
 				{
 					//Forward the arrow to the next blank word
 					blankHitActor->SetCurrentBlank(false);

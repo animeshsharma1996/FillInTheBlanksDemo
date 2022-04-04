@@ -30,6 +30,8 @@ public :
 		FString GetGeneratedString();
 	UFUNCTION(BlueprintCallable)
 		void SetNextBlankActor();
+	UFUNCTION(BlueprintCallable)
+		bool GetIsGameOver() { return isGameOver; }
 
 	UPROPERTY(BlueprintReadWrite)
 		TMap<int32, ABlankActor*> blankActorsMap;
@@ -61,4 +63,6 @@ private :
 		UWorld* world;
 	UPROPERTY()
 		bool firstBlankActor;
+	UPROPERTY()
+		bool isGameOver;
 };

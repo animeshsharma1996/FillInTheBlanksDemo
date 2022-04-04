@@ -58,14 +58,10 @@ void ABlankActor::ResetMaterial()
 void ABlankActor::SetCurrentBlank(bool value)
 {
 	isCurrentBlank = value;
-	if (!isCurrentBlank)
+	if (ownArrow != nullptr)
 	{
-		if (ownArrow != nullptr) 
-		{ 
-			ownArrow->SetVisibility(false); 
-		}
+		ownArrow->SetVisibility(isCurrentBlank);
 	}
-
 }
 
 
