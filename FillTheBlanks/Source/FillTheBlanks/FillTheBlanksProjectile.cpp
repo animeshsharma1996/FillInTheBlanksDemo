@@ -9,6 +9,7 @@ void AFillTheBlanksProjectile::Initialise()
 {
 	textRenderBlock = FindComponentByClass<UTextRenderComponent>();
 	originalTransform = this->GetActorTransform();
+	isFilled = false;
 }
 
 void AFillTheBlanksProjectile::SetTextRenderBlocks(FText displayText)

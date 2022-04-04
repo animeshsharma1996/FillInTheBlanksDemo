@@ -26,6 +26,11 @@ public:
 		FString GetBlankTextString();
 	UFUNCTION()
 		void ResetTransform();
+	UFUNCTION()
+		void SetIsFilled(bool value) { isFilled = true; }
+
+	UPROPERTY(BlueprintReadOnly)
+		bool isFilled;
 
 	UTextRenderComponent* GetTextRenderBlock() { return ((textRenderBlock != nullptr) ? textRenderBlock : nullptr); }
 

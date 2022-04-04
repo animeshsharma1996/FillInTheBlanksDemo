@@ -102,6 +102,15 @@ void UTextManagerWidget::SpawnBlankActor(int blankWordIndex,FString blankWordRef
 		firstBlankActor = true;
 	}
 	blankActor->Initialise(blankWordIndex, blankWordRef);
+	blankActorsMap.Add(blankWordIndex, blankActor);
+
+	if (blankActorsMap.Num() == numOfBlanks)
+	{
+		for (auto pair : blankActorsMap)
+		{
+			blankActorsQueue.Enqueue(pair.Value);
+		}
+	}
 
 }
 
@@ -123,4 +132,13 @@ FString UTextManagerWidget::GetGeneratedString()
 		returnString = newGeneratedString;
 	}
 	return returnString;
+}
+
+void UTextManagerWidget::SetNextBlankActor()
+{
+	ABlankActor* blankActor;
+	blankActorsQueue.Dequeue(blankActor);
+	ABlankActor* nextBlankActor;
+	blankActorsQueue.Peek(nextBlankActor);
+	nextBlankActor->SetCurrentBlank(true);
 }

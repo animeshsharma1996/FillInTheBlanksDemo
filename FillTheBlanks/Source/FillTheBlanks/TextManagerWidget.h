@@ -28,7 +28,11 @@ public :
 		FString GenerateRequiredDashes(int32 charactersNumbers);
 	UFUNCTION(BlueprintCallable)
 		FString GetGeneratedString();
+	UFUNCTION(BlueprintCallable)
+		void SetNextBlankActor();
 
+	UPROPERTY(BlueprintReadWrite)
+		TMap<int32, ABlankActor*> blankActorsMap;
 	UPROPERTY(BlueprintReadWrite)
 		TMap<int32, FString> blankWordsKeyMap;
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
