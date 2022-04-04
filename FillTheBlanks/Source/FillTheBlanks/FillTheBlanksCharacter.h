@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "BlankActor.h"
+#include "TextManager.h"
 #include "FillTheBlanksCharacter.generated.h"
 
 class UInputComponent;
@@ -55,8 +56,12 @@ class AFillTheBlanksCharacter : public ACharacter
 public:
 	AFillTheBlanksCharacter();
 
+	UFUNCTION(BlueprintCallable)
+		void SetTextManagerBPRef(UTextManagerWidget* value) { textManagerWidgetRef = value; }
+
 protected:
 	virtual void BeginPlay();
+	virtual void Tick(float DeltaTime);
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -77,6 +82,9 @@ public:
 	
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class ABlankActor> blankActorClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		TSubclassOf<class ATextManager> textManagerClass;
 
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
@@ -131,7 +139,12 @@ protected:
 	UPROPERTY()
 		AActor* textBlock;
 	UPROPERTY()
+		ABlankActor* currentBlankActor;
+	UPROPERTY()
 		UWorld* World;
+	UPROPERTY()
+		class UTextManagerWidget* textManagerWidgetRef;
+
 public:
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }

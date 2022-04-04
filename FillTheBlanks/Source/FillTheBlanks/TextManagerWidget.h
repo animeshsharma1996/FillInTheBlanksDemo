@@ -8,9 +8,10 @@
 #include "BlankActor.h"
 #include "TextManagerWidget.generated.h"
 
-/**
- * 
- */
+//Text Manager Widget class is responsible for handling the generation of the blank words through the paragraph text written the extended blueprint
+//Text Manager Widget is manager by the Text Manager in the hierarchy 
+//The class contains the information of the whole paragraph string, the blank words, their indexes and the logic to switch blanks when they have been 
+//matches or filled -> Once all blanks have been filled trigger the Game Over boolean
 UCLASS()
 class FILLTHEBLANKS_API UTextManagerWidget : public UUserWidget
 {
@@ -29,10 +30,18 @@ public :
 		void SetTextBoxPositions(TArray<UArrowComponent*> arrowPositions);
 	UFUNCTION(BlueprintCallable)
 		FString GenerateRequiredDashes(int32 charactersNumbers);
-	UFUNCTION()
-		void PublicTick(float DeltaTime);
+	UFUNCTION(BlueprintCallable)
+		FString GetGeneratedString();
+	UFUNCTION(BlueprintCallable)
+		void SetNextBlankActor();
+	UFUNCTION(BlueprintCallable)
+		bool GetIsGameOver() { return isGameOver; }
 
-	UPROPERTY(meta = (BindWidget))
+	UPROPERTY(BlueprintReadWrite)
+		TMap<int32, ABlankActor*> blankActorsMap;
+	UPROPERTY(BlueprintReadWrite)
+		TMap<int32, FString> blankWordsKeyMap;
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* paragraphTextBlock;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DemoData")
 		int32 numOfBlanks;
@@ -41,7 +50,11 @@ public :
 	UPROPERTY(EditDefaultsOnly, Category = "DemoData")
 		TSubclassOf<class ABlankActor> blankActorClass;
 
+	TQueue<ABlankActor*> blankActorsQueue;
+
 private :
+	UPROPERTY()
+		FString newGeneratedString;
 	UPROPERTY()
 		TArray<FString> paragraphTextArray;
 	UPROPERTY()
@@ -52,4 +65,8 @@ private :
 		TArray<FTransform> textBoxesTransforms;
 	UPROPERTY()
 		UWorld* world;
+	UPROPERTY()
+		bool firstBlankActor;
+	UPROPERTY()
+		bool isGameOver;
 };

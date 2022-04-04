@@ -9,28 +9,28 @@
 #include "TextManagerWidget.h"
 #include "TextManager.generated.h"
 
+//Text Manager is the Actor class that exists in the level to act as a bridge between TextManagerWidget and the world level
+//The blueprint extension is also used to spawn, display the 3D Text along with the Blank Actor
 UCLASS()
 class FILLTHEBLANKS_API ATextManager : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	ATextManager();
 
-	virtual void Tick(float DeltaTime) override;
+UFUNCTION(BlueprintCallable)
+	void InitTextWidget();
 
 UPROPERTY()
 	class UWidgetComponent* textManagerWidgetComponent;
 UPROPERTY()
 	TArray<UArrowComponent*> arrowPositions;
-//UPROPERTY()
-	//class UText3DComponent* paragraphText;
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
 UPROPERTY()
 	class UTextManagerWidget* textManagerWidget;
+
+protected:
+	virtual void BeginPlay() override;
+
+
 };

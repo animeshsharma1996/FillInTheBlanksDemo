@@ -6,21 +6,13 @@
 #include "GameFramework/Actor.h"
 #include "FillTheBlanksProjectile.generated.h"
 
-class USphereComponent;
-class UProjectileMovementComponent;
-
+//This class drives the projectile actor spawned inside the level which contains the information of the blank word 
 UCLASS(config=Game)
 class AFillTheBlanksProjectile : public AActor
 {
 	GENERATED_BODY()
 
-	/** Sphere collision component */
-	UPROPERTY(VisibleDefaultsOnly, Category=Projectile)
-		USphereComponent* CollisionComp;
-
 public:
-	AFillTheBlanksProjectile();
-
 	UPROPERTY()
 		class UTextRenderComponent* textRenderBlock;
 
@@ -32,9 +24,13 @@ public:
 		FString GetBlankTextString();
 	UFUNCTION()
 		void ResetTransform();
+	UFUNCTION()
+		bool GetIsFilled() { return isFilled; }
+	UFUNCTION()
+		void SetIsFilled(bool value) { isFilled = value; }
 
-	/** Returns CollisionComp subobject **/
-	USphereComponent* GetCollisionComp() const { return CollisionComp; }
+	UPROPERTY(BlueprintReadOnly)
+		bool isFilled;
 
 	UTextRenderComponent* GetTextRenderBlock() { return ((textRenderBlock != nullptr) ? textRenderBlock : nullptr); }
 

@@ -14,7 +14,7 @@ ATextManager::ATextManager()
 	PrimaryActorTick.bCanEverTick = true;
 }
 
-// Called when the game starts or when spawned
+// Called when the game starts or when spawned -> Gets the TextManagerWidget component and the arrow positions where the text blocks should be spawned
 void ATextManager::BeginPlay()
 {
 	Super::BeginPlay();
@@ -22,7 +22,11 @@ void ATextManager::BeginPlay()
 	textManagerWidgetComponent = FindComponentByClass<UWidgetComponent>();
 
 	GetComponents(arrowPositions);
+}
 
+//Initialise the Text Manager Widget with this function
+void ATextManager::InitTextWidget()
+{
 	if (textManagerWidgetComponent != nullptr)
 	{
 		textManagerWidget = Cast<UTextManagerWidget>(textManagerWidgetComponent->GetWidget());
@@ -31,17 +35,6 @@ void ATextManager::BeginPlay()
 			textManagerWidget->SetTextBoxPositions(arrowPositions);
 			textManagerWidget->Initialise();
 		}
-	}
-}
-
-// Called every frame
-void ATextManager::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-	if (textManagerWidget != nullptr)
-	{
-		//textManagerWidget->PublicTick(DeltaTime);
 	}
 }
 
