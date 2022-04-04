@@ -17,11 +17,8 @@ class FILLTHEBLANKS_API ATextManager : public AActor
 public:	
 	ATextManager();
 
-	virtual void Tick(float DeltaTime) override;
-
-
 UFUNCTION(BlueprintCallable)
-		void InitTextWidget();
+	void InitTextWidget();
 
 UPROPERTY()
 	class UWidgetComponent* textManagerWidgetComponent;

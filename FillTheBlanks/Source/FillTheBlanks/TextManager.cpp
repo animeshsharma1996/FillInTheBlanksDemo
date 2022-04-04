@@ -38,14 +38,3 @@ void ATextManager::InitTextWidget()
 	}
 }
 
-// Called every frame
-void ATextManager::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-	if (textManagerWidget != nullptr)
-	{
-		//textManagerWidget->PublicTick(DeltaTime);
-	}
-}
-

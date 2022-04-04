@@ -106,13 +106,6 @@ void AFillTheBlanksCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
-
-	textManagerRef = Cast<ATextManager>(UGameplayStatics::GetActorOfClass(World, textManagerClass));
-
-	if (textManagerRef != nullptr)
-	{
-		textManagerWidgetRef = textManagerRef->textManagerWidget;
-	}
 }
 
 void AFillTheBlanksCharacter::Tick(float DeltaTime)

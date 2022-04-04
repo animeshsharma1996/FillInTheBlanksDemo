@@ -56,6 +56,9 @@ class AFillTheBlanksCharacter : public ACharacter
 public:
 	AFillTheBlanksCharacter();
 
+	UFUNCTION(BlueprintCallable)
+		void SetTextManagerBPRef(UTextManagerWidget* value) { textManagerWidgetRef = value; }
+
 protected:
 	virtual void BeginPlay();
 	virtual void Tick(float DeltaTime);
@@ -139,8 +142,6 @@ protected:
 		ABlankActor* currentBlankActor;
 	UPROPERTY()
 		UWorld* World;
-	UPROPERTY()
-		class ATextManager* textManagerRef;
 	UPROPERTY()
 		class UTextManagerWidget* textManagerWidgetRef;
 
