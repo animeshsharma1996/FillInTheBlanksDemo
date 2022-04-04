@@ -3,6 +3,7 @@
 
 #include "BlankActor.h"
 
+//Begin the actor by setting the default highlight (false) and getting the arrow component along with the static meshes
 void ABlankActor::BeginPlay()
 {
 	isHighlighted = false;
@@ -11,6 +12,7 @@ void ABlankActor::BeginPlay()
 	GetComponents(staticMeshes);
 }
 
+//Initialise the blank actor with the blank index and blank string (word) and set the isCurrentBlank boolean
 void ABlankActor::Initialise(int32 blankIndex, FString blankString)
 {
 	blankWordIndex = blankIndex;
@@ -25,6 +27,7 @@ void ABlankActor::Initialise(int32 blankIndex, FString blankString)
 	}
 }
 
+//If the gun is pointing at the Blank Actor, Tigger the highlight functionality which applies the highlight material
 void ABlankActor::TriggerHighlight()
 {
 	if ((staticMeshes.Num() != 0) && (!isHighlighted))
@@ -40,6 +43,7 @@ void ABlankActor::TriggerHighlight()
 	}
 }
 
+//If the gun is not pointing at the Blank Actor, Reset the highlight functionality which resets the material back to default material
 void ABlankActor::ResetMaterial()
 {
 	if ((staticMeshes.Num() != 0) && isHighlighted)
@@ -55,6 +59,7 @@ void ABlankActor::ResetMaterial()
 	}
 }
 
+//Current blank is the way of displaying the current blank at which the words should be applied and thus the arrow points at this actor
 void ABlankActor::SetCurrentBlank(bool value)
 {
 	isCurrentBlank = value;

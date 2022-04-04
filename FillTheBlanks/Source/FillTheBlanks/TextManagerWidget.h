@@ -8,6 +8,10 @@
 #include "BlankActor.h"
 #include "TextManagerWidget.generated.h"
 
+//Text Manager Widget class is responsible for handling the generation of the blank words through the paragraph text written the extended blueprint
+//Text Manager Widget is manager by the Text Manager in the hierarchy 
+//The class contains the information of the whole paragraph string, the blank words, their indexes and the logic to switch blanks when they have been 
+//matches or filled -> Once all blanks have been filled trigger the Game Over boolean
 UCLASS()
 class FILLTHEBLANKS_API UTextManagerWidget : public UUserWidget
 {

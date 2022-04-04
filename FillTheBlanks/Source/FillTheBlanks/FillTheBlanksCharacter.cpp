@@ -145,6 +145,8 @@ void AFillTheBlanksCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AFillTheBlanksCharacter::LookUpAtRate);
 }
 
+//This Function does two jobs -> 1. Attaches the text block on the gun muzzle with an offset
+//2. Throws the text block onto the blank object/actor
 void AFillTheBlanksCharacter::OnFire()
 {
 	float hitDistance = 10000;
@@ -162,6 +164,8 @@ void AFillTheBlanksCharacter::OnFire()
 				FHitResult outHit;
 				bool actorHit = World->LineTraceSingleByChannel(outHit, startLocation, endLocation, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
 
+				//Detect Raycast hit and check for Tag, "textBlock" -> if found and the textblock isn't filled in the blank
+				//then attach the text block on the gun muzzle with an offset
 				if (actorHit && outHit.GetActor()->ActorHasTag("textBlock"))
 				{
 					textBlock = outHit.GetActor();
@@ -184,13 +188,15 @@ void AFillTheBlanksCharacter::OnFire()
 		{
 			FHitResult outHit;
 			bool actorHit = World->LineTraceSingleByChannel(outHit, startLocation, endLocation, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
+			
+			//Detect Raycast hit and check for Tag, "fillable" -> if found check for the correct word
 			if (actorHit && outHit.GetActor()->ActorHasTag("fillable"))
 			{
 				AActor* hitActor = outHit.GetActor();
 				ABlankActor* blankHitActor = Cast<ABlankActor>(hitActor);
 				AFillTheBlanksProjectile* textBlockActor = Cast<AFillTheBlanksProjectile>(textBlock);
 
-				//If the blank word is correct
+				//If the blank word is correct and the arrow is pointing towards that blank word object
 				if (blankHitActor->GetBlankWordString() == textBlockActor->GetBlankTextString() && blankHitActor->GetCurrentBlank())
 				{
 					//Forward the arrow to the next blank word
@@ -205,7 +211,7 @@ void AFillTheBlanksCharacter::OnFire()
 						textManagerWidgetRef->SetNextBlankActor();
 					}
 				}
-				else
+				else //Else Teleport the TextBlock back to the original position
 				{
 					textBlock->DetachRootComponentFromParent(true);
 					textBlockActor->ResetTransform();
@@ -238,6 +244,7 @@ void AFillTheBlanksCharacter::PlaySoundAnimation()
 	}
 }
 
+//Function to Highlight the Blank Actor Object in the Scene when crosshair is placed on it
 void AFillTheBlanksCharacter::HighlightBlankObject()
 {
 	float hitDistance = 10000;
@@ -249,6 +256,8 @@ void AFillTheBlanksCharacter::HighlightBlankObject()
 	{
 		FHitResult outHit;
 		bool actorHit = World->LineTraceSingleByChannel(outHit, startLocation, endLocation, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
+	
+		//Detect Raycast hit and check for Tag, "fillable" -> if Found Trigger the highlight material else Reset
 		if (actorHit && outHit.GetActor()->ActorHasTag("fillable"))
 		{
 			AActor* hitActor = outHit.GetActor();

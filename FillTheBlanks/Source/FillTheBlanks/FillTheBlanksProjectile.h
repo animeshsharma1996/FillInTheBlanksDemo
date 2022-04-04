@@ -6,9 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "FillTheBlanksProjectile.generated.h"
 
-class USphereComponent;
-class UProjectileMovementComponent;
-
+//This class drives the projectile actor spawned inside the level which contains the information of the blank word 
 UCLASS(config=Game)
 class AFillTheBlanksProjectile : public AActor
 {

@@ -7,6 +7,8 @@
 #include "Components/ArrowComponent.h"
 #include "BlankActor.generated.h"
 
+//This class handles the blank actor inside the level and containes the information of blank word used to match up against the 
+//Text Block objects to correctly match the blank functionality
 UCLASS()
 class FILLTHEBLANKS_API ABlankActor : public AActor
 {
